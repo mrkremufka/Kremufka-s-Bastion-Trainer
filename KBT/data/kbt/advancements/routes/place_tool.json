@@ -1,0 +1,9 @@
+{
+  "criteria": {
+    "placed": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {"item": {"nbt": "{kbtRouteWand:1b}"}}
+    }
+  },
+  "rewards": {"function": "kbt:routes/creator/place"}
+}

@@ -4,8 +4,7 @@ scoreboard objectives add kbt.rc_pick trigger
 scoreboard objectives add kbt.rc_name dummy
 scoreboard objectives add kbt.rc_splash minecraft.used:minecraft.splash_potion
 scoreboard objectives add kbt.rc_exit dummy
-scoreboard objectives add kbt.rc_use minecraft.used:minecraft.warped_fungus_on_a_stick
-scoreboard objectives add kbt.rc_carrot minecraft.used:minecraft.carrot_on_a_stick
+scoreboard objectives add kbt.rc_book minecraft.used:minecraft.knowledge_book
 scoreboard objectives add kbt.rc_cd dummy
 scoreboard objectives add kbt.rc_mode dummy
 scoreboard objectives add kbt.rc_type dummy

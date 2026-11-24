@@ -9,16 +9,15 @@ data remove storage kbt:routes editor.pending
 scoreboard players set #rc_confirm kbt.settings 0
 scoreboard players set @s kbt.rc_open 0
 scoreboard players set @s kbt.rc_delete 0
-clear @s minecraft:warped_fungus_on_a_stick{kbtRouteWand:1b}
-clear @s minecraft:carrot_on_a_stick{kbtRouteWand:1b}
+clear @s #kbt:route_tools{kbtRouteWand:1b}
+function kbt:routes/creator/break/reset
 clear @s minecraft:snowball{kbtRouteControl:1}
 clear @s minecraft:egg{kbtRouteControl:2}
 clear @s minecraft:splash_potion{kbtRouteControl:3}
 scoreboard players set @s kbt.rc_exit 0
 scoreboard players set @s kbt.rc_splash 0
 scoreboard players set @s kbt.creator 0
-scoreboard players set @s kbt.rc_use 0
-scoreboard players set @s kbt.rc_carrot 0
+scoreboard players set @s kbt.rc_book 0
 scoreboard players set @s kbt.rc_cd 0
 scoreboard players set @s kbt.rc_menu 0
 function kbt:practice/clear_drops

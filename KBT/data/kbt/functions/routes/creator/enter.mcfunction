@@ -12,8 +12,7 @@ execute if entity @s[gamemode=creative] run scoreboard players set @s kbt.rc_mod
 execute if entity @s[gamemode=adventure] run scoreboard players set @s kbt.rc_mode 2
 execute if entity @s[gamemode=spectator] run scoreboard players set @s kbt.rc_mode 3
 scoreboard players set @s kbt.creator 1
-scoreboard players set @s kbt.rc_use 0
-scoreboard players set @s kbt.rc_carrot 0
+scoreboard players set @s kbt.rc_book 0
 scoreboard players set @s kbt.rc_cd 0
 gamemode creative @s
 execute unless data storage kbt:routes draft run function kbt:routes/creator/new_draft

@@ -68,5 +68,6 @@ execute as @a[scores={kbt.creator=1,kbt.rc_menu=60}] run function kbt:routes/cre
 execute as @a[scores={kbt.creator=1,kbt.rc_menu=61}] run function kbt:routes/creator/text/menu
 execute as @a[scores={kbt.creator=1,kbt.rc_menu=70..85}] run function kbt:routes/creator/text/style
 execute as @a[scores={kbt.creator=1,kbt.rc_name=1},nbt={SelectedItem:{id:"minecraft:written_book"}}] run function kbt:routes/creator/naming/apply
-execute as @a[scores={kbt.creator=1,kbt.rc_use=1..,kbt.rc_cd=0},nbt={SelectedItem:{id:"minecraft:warped_fungus_on_a_stick",tag:{kbtRouteWand:1b}}}] run function kbt:routes/creator/use_held
-execute as @a[scores={kbt.creator=1,kbt.rc_carrot=1..,kbt.rc_cd=0},nbt={SelectedItem:{id:"minecraft:carrot_on_a_stick",tag:{kbtRouteWand:1b}}}] run function kbt:routes/creator/use_held
+execute as @a[scores={kbt.creator=1,kbt.rc_book=1..,kbt.rc_cd=0},nbt={SelectedItem:{id:"minecraft:knowledge_book",tag:{kbtRouteWand:1b}}}] run function kbt:routes/creator/use_held
+execute as @a[scores={kbt.creator=1},nbt={Dimension:"minecraft:the_nether",SelectedItem:{tag:{kbtBreakTool:1b}}}] at @s run function kbt:routes/creator/break/tick
+execute unless entity @a[scores={kbt.creator=1},nbt={Dimension:"minecraft:the_nether",SelectedItem:{tag:{kbtBreakTool:1b}}}] if entity @e[type=minecraft:armor_stand,tag=kbt.rc_break] run function kbt:routes/creator/break/reset
