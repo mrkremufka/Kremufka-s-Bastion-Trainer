@@ -1,0 +1,10 @@
+execute if score #rsm_cursor kbt.settings matches 1 run function kbt:routes/creator/menu/stages_list/row_1
+execute if score #rsm_cursor kbt.settings matches 2 run function kbt:routes/creator/menu/stages_list/row_2
+execute if score #rsm_cursor kbt.settings matches 3 run function kbt:routes/creator/menu/stages_list/row_3
+execute if score #rsm_cursor kbt.settings matches 4 run function kbt:routes/creator/menu/stages_list/row_4
+execute if score #rsm_cursor kbt.settings matches 5 run function kbt:routes/creator/menu/stages_list/row_5
+execute if score #rsm_cursor kbt.settings matches 6 run function kbt:routes/creator/menu/stages_list/row_6
+execute if score #rsm_cursor kbt.settings matches 7 run function kbt:routes/creator/menu/stages_list/row_7
+execute if score #rsm_cursor kbt.settings matches 8 run function kbt:routes/creator/menu/stages_list/row_8
+execute if score #rsm_cursor kbt.settings matches 9 run function kbt:routes/creator/menu/stages_list/row_9
+execute if score #rsm_cursor kbt.settings matches 10 run function kbt:routes/creator/menu/stages_list/row_10

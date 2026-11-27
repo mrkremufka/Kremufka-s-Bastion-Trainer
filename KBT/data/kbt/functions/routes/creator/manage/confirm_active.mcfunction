@@ -3,5 +3,6 @@ execute if score #rc_action kbt.settings matches 1 run function kbt:routes/creat
 execute if score #rc_action kbt.settings matches 2 run function kbt:routes/creator/manage/open_confirmed
 execute if score #rc_action kbt.settings matches 3 run function kbt:routes/creator/manage/delete_confirmed
 execute if score #rc_action kbt.settings matches 4 run function kbt:routes/creator/manage/discard_confirmed
+execute if score #rc_action kbt.settings matches 5 run function kbt:routes/creator/drafts/delete_confirmed
 data remove storage kbt:routes editor.pending
 scoreboard players set #rc_confirm kbt.settings 0

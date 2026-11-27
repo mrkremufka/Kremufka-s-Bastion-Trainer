@@ -6,4 +6,4 @@ scoreboard players set b3 kbt.mv_pb 0
 scoreboard players set #mv_pb_view kbt.settings -1
 function kbt:route_browser/refresh
 function kbt:movement/playlist/pb/init
-tellraw @a {"text":"All route, trail and playlist PBs have been reset.","color":"gold"}
+tellraw @a {"text":"All route, trail and playlist PBs have been reset","color":"gold"}

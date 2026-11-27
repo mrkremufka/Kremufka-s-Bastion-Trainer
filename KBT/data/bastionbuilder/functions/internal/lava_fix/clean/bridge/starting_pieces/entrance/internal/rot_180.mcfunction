@@ -4,6 +4,7 @@ setblock ~-5 ~17 ~-4 air
 setblock ~-6 ~17 ~-4 air
 setblock ~-7 ~17 ~-5 air
 setblock ~-7 ~17 ~-6 air
+
 setblock ~-5 ~8 ~-3 blackstone
 setblock ~-6 ~8 ~-3 blackstone
 setblock ~-6 ~8 ~-4 blackstone

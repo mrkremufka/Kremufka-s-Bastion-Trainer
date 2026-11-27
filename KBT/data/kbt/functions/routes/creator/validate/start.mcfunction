@@ -32,4 +32,4 @@ data modify storage kbt:route_runtime validate_queue set value []
 data modify storage kbt:route_runtime validate_queue set from storage kbt:routes draft.stages
 scoreboard players set #rc_expected kbt.settings 1
 execute if data storage kbt:route_runtime validate_queue[0] run function kbt:routes/creator/validate/stage
-execute unless score #rc_save_valid kbt.settings matches 1 run tellraw @s {"text":"Save refused. Need Start with rotation, Finish in the final stage, valid metadata/points, one closing Checkpoint per earlier stage and none in the final stage. Check /data get storage kbt:routes draft.","color":"red"}
+execute unless score #rc_save_valid kbt.settings matches 1 run tellraw @s {"text":"Save refused Need Start with rotation, Finish in the final stage, valid metadata/points, one closing Checkpoint per earlier stage and none in the final stage Check /data get storage kbt:routes draft","color":"red"}

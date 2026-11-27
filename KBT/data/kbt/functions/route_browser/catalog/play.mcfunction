@@ -1,3 +1,3 @@
 function kbt:route_browser/catalog/check_play
 execute if score #rb_can_play kbt.settings matches 1 as @a[distance=..8,limit=1,sort=nearest] store result score @s kbt.rp_start run data get storage kbt:route_browser selected.id
-execute unless score #rb_can_play kbt.settings matches 1 run tellraw @a[distance=..8] {"text":"Select a saved Custom or Built-in route with a prepared layout. Prepare it using Play Saved Route in its creator first.","color":"yellow"}
+execute unless score #rb_can_play kbt.settings matches 1 run tellraw @a[distance=..8] {"text":"Select a saved Custom or Built-in route with a prepared layout Prepare it using Play Saved Route in its creator first","color":"yellow"}

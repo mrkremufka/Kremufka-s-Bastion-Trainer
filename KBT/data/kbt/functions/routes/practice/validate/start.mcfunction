@@ -42,4 +42,4 @@ data modify storage kbt:route_runtime validate_queue set value []
 data modify storage kbt:route_runtime validate_queue set from storage kbt:route_practice candidate.stages
 scoreboard players set #rc_expected kbt.settings 1
 execute if data storage kbt:route_runtime validate_queue[0] run function kbt:routes/practice/validate/stage
-execute unless score #rc_save_valid kbt.settings matches 1 run tellraw @s {"text":"Route refused. Check Start/Finish, ordered checkpoints, saved task metadata, anchor 1000/128/1000, all points inside X/Z 936..1063 Y 128..255, and checkpoint/Finish radius <=8. Inspect /data get storage kbt:route_practice candidate.","color":"red"}
+execute unless score #rc_save_valid kbt.settings matches 1 run tellraw @s {"text":"Route refused Check Start/Finish, ordered checkpoints, saved task metadata, anchor 1000/128/1000, all points inside X/Z 936..1063 Y 128..255, and checkpoint/Finish radius <=8 Inspect /data get storage kbt:route_practice candidate","color":"red"}

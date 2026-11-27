@@ -1,0 +1,10 @@
+execute if score treasure_lower bastion.temp matches 31 run function bastionbuilder:internal/place/treasure/lower/lower_30/rot_0
+execute if score treasure_lower bastion.temp matches 32 run function bastionbuilder:internal/place/treasure/lower/lower_31/rot_0
+execute if score treasure_lower bastion.temp matches 33 run function bastionbuilder:internal/place/treasure/lower/lower_32/rot_0
+execute if score treasure_lower bastion.temp matches 34 run function bastionbuilder:internal/place/treasure/lower/lower_33/rot_0
+execute if score treasure_lower bastion.temp matches 35 run function bastionbuilder:internal/place/treasure/lower/lower_34/rot_0
+execute if score treasure_lower bastion.temp matches 36 run function bastionbuilder:internal/place/treasure/lower/lower_35/rot_0
+execute if score treasure_lower bastion.temp matches 37 run function bastionbuilder:internal/place/treasure/lower/lower_36/rot_0
+execute if score treasure_lower bastion.temp matches 38 run function bastionbuilder:internal/place/treasure/lower/lower_37/rot_0
+execute if score treasure_lower bastion.temp matches 39 run function bastionbuilder:internal/place/treasure/lower/lower_38/rot_0
+execute if score treasure_lower bastion.temp matches 40 run function bastionbuilder:internal/place/treasure/lower/lower_39/rot_0

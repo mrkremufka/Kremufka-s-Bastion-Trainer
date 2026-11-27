@@ -21,6 +21,6 @@ function kbt:settings/presets/random/menu
 tellraw @s {"text":"[Save Preset]","color":"green","bold":true,"clickEvent":{"action":"run_command","value":"/trigger kbt.preset set 1"},"hoverEvent":{"action":"show_text","contents":{"text":"Save the current bastion settings as a new preset"}}}
 scoreboard players set #ps_row kbt.settings 0
 execute if data storage kbt:presets view.queue[0] run function kbt:settings/presets/row
-execute if score #ps_count kbt.settings matches 0 run tellraw @s {"text":"No saved presets yet.","color":"gray"}
+execute if score #ps_count kbt.settings matches 0 run tellraw @s {"text":"No saved presets yet","color":"gray"}
 execute if data storage kbt:presets naming.id run function kbt:settings/presets/rename/menu
 tellraw @s [{"text":"[←] ","color":"gold","clickEvent":{"action":"run_command","value":"/trigger kbt.preset set 2"}},{"text":"Page ","color":"yellow"},{"score":{"name":"#ps_page_display","objective":"kbt.settings"}},{"text":" / "},{"score":{"name":"#ps_pages","objective":"kbt.settings"}},{"text":" [→]","color":"gold","clickEvent":{"action":"run_command","value":"/trigger kbt.preset set 3"}}]

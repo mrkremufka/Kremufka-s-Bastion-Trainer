@@ -13,4 +13,4 @@ scoreboard players remove #re_chain kbt.settings 1
 execute at @s anchored eyes positioned ^ ^ ^ run function kbt:routes/creator/edit/ray
 execute if score #re_ray_hit kbt.settings matches 0 at @s run function kbt:routes/creator/ray/start
 execute if data storage kbt:route_runtime hit_pos run function kbt:routes/creator/edit/target
-execute unless data storage kbt:route_runtime hit_pos run tellraw @s {"text":"Aim at the object or its block within 8 blocks. Heads can be selected directly.","color":"yellow"}
+execute unless data storage kbt:route_runtime hit_pos run tellraw @s {"text":"Aim at the object or its block within 8 blocks Heads can be selected directly","color":"yellow"}

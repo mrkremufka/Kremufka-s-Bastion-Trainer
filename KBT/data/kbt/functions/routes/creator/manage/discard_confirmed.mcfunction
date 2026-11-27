@@ -10,4 +10,4 @@ execute unless data storage kbt:route_runtime found{source:1} run function kbt:r
 data modify storage kbt:routes editor.history set value []
 data modify storage kbt:routes editor.redo set value []
 function kbt:routes/creator/visuals/rebuild
-tellraw @s {"text":"Edits discarded. Previous work is available in editor.backup_draft.","color":"aqua"}
+tellraw @s {"text":"Edits discarded Previous work is available in editor.backup_draft","color":"aqua"}

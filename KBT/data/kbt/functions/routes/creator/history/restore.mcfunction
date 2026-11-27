@@ -5,4 +5,4 @@ data modify storage kbt:routes draft set from storage kbt:routes editor.history[
 data remove storage kbt:routes editor.history[-1]
 scoreboard players set #rc_undo_ok kbt.settings 1
 function kbt:routes/creator/refresh
-tellraw @s {"text":"Last change undone. The committed catalogue was not changed.","color":"aqua"}
+tellraw @s {"text":"Last change undone The committed catalogue was not changed","color":"aqua"}

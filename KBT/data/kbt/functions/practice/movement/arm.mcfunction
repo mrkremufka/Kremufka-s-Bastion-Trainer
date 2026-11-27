@@ -1,6 +1,7 @@
 effect clear @s minecraft:fire_resistance
 effect clear @s minecraft:saturation
 tag @s remove kbt.in_lobby
+tag @s remove kbt.gp_respawn
 scoreboard players set @a kbt.run 0
 scoreboard players set @a kbt.gp_timer 0
 execute store result score @s kbt.start_x run data get entity @s Pos[0] 1000

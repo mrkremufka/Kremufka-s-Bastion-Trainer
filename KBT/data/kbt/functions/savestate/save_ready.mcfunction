@@ -1,4 +1,4 @@
-title @s actionbar {"text":"Saving savestate...","color":"aqua"}
+title @s actionbar {"text":"Saving savestate","color":"aqua"}
 data modify storage kbt:savestate draft set value {entities:[],scores:{},mode:0}
 execute if entity @s[tag=kbt.rp_context] run data modify storage kbt:savestate draft.mode set value 1
 data modify storage kbt:savestate draft.owner set from entity @s UUID
@@ -40,5 +40,5 @@ scoreboard players operation #ss_bank kbt.settings = #ss_next kbt.settings
 data remove storage kbt:savestate draft
 data remove storage kbt:savestate entity
 data remove storage kbt:savestate labels
-tellraw @s [{"text":"Savestate created. ","color":"green"},{"text":"Shift + drop any axe to restore.","color":"gray"}]
+tellraw @s [{"text":"Savestate created ","color":"green"},{"text":"Shift + drop any axe to restore","color":"gray"}]
 playsound minecraft:block.note_block.pling master @s ~ ~ ~ 0.5 1.5

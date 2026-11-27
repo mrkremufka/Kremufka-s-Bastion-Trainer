@@ -16,4 +16,4 @@ execute if data storage kbt:routes draft.finish store result storage kbt:route_r
 data modify storage kbt:route_runtime phase_copy.compare set from storage kbt:routes draft
 execute store success score #cp_changed kbt.settings run data modify storage kbt:route_runtime phase_copy.compare set from storage kbt:route_runtime phase_copy.candidate
 execute if score #cp_changed kbt.settings matches 1 run function kbt:routes/creator/phase_copy/commit
-execute unless score #cp_changed kbt.settings matches 1 run tellraw @s {"text":"This phase already matches the previous phase.","color":"gray"}
+execute unless score #cp_changed kbt.settings matches 1 run tellraw @s {"text":"This phase already matches the previous phase","color":"gray"}

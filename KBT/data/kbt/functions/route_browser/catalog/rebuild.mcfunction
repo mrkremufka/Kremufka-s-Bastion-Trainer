@@ -16,5 +16,5 @@ data remove storage kbt:route_browser selected
 scoreboard players set #rb_count kbt.settings 0
 scoreboard players set #rb_index kbt.settings 0
 function kbt:route_browser/catalog/render
-execute as @e[type=minecraft:armor_stand,tag=kbt.rb_selected_text] run data modify entity @s CustomName set value '{"text":"LOADING ROUTES...","color":"gray"}'
+execute as @e[type=minecraft:armor_stand,tag=kbt.rb_selected_text] run data modify entity @s CustomName set value '{"text":"LOADING ROUTES","color":"gray"}'
 function kbt:route_browser/catalog/filters

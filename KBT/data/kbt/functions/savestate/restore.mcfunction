@@ -1,4 +1,4 @@
-title @s actionbar {"text":"Restoring savestate...","color":"aqua"}
+title @s actionbar {"text":"Restoring savestate","color":"aqua"}
 function kbt:savestate/rules_begin
 scoreboard players set #ss_action kbt.settings 1
 execute as @e[type=!minecraft:player,x=936,y=128,z=936,dx=127,dy=127,dz=127] run function kbt:savestate/discard_entity

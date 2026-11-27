@@ -1,2 +1,2 @@
 execute if score @s kbt.creator matches 1 if data storage kbt:route_text pending.element.text{advanced:0} run function kbt:routes/creator/text/style_plain
-execute if score @s kbt.creator matches 1 if data storage kbt:route_text pending.element.text{advanced:1} run tellraw @s {"text":"Advanced JSON defines its own color/styles. Edit that JSON, or use Write Message and apply new plain text to enable these buttons.","color":"yellow"}
+execute if score @s kbt.creator matches 1 if data storage kbt:route_text pending.element.text{advanced:1} run tellraw @s {"text":"Advanced JSON defines its own color/styles Edit that JSON, or use Write Message and apply new plain text to enable these buttons","color":"yellow"}

@@ -27,4 +27,4 @@ execute if score #re_count kbt.settings matches 1 run data modify storage kbt:ro
 execute if score #re_count kbt.settings matches 1 run scoreboard players set @s kbt.rc_edit 1
 execute if score #re_count kbt.settings matches 1 run function kbt:routes/creator/edit/pick
 execute if score #re_count kbt.settings matches 2.. run function kbt:routes/creator/edit/menu
-execute if score #re_count kbt.settings matches 0 run tellraw @s {"text":"No matching objects here. Aim directly at a visible object, or try Preview All.","color":"yellow"}
+execute if score #re_count kbt.settings matches 0 run tellraw @s {"text":"No matching objects here Aim directly at a visible object, or try Preview All","color":"yellow"}

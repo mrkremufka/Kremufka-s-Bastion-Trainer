@@ -1,5 +1,8 @@
 scoreboard players set #ps_valid kbt.settings 1
 scoreboard players set #ps_value kbt.settings 0
+execute if data storage kbt:presets selected.settings.piglins store result score #ps_value kbt.settings run data get storage kbt:presets selected.settings.piglins
+execute unless score #ps_value kbt.settings matches 0..1 run scoreboard players set #ps_valid kbt.settings 0
+scoreboard players set #ps_value kbt.settings 0
 execute if data storage kbt:presets selected.settings.s_triple_chest store result score #ps_value kbt.settings run data get storage kbt:presets selected.settings.s_triple_chest
 execute unless score #ps_value kbt.settings matches 0..1 run scoreboard players set #ps_valid kbt.settings 0
 scoreboard players set #ps_value kbt.settings 0

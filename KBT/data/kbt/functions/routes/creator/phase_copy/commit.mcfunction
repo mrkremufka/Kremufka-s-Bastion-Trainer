@@ -10,4 +10,4 @@ data remove storage kbt:route_runtime phase_copy.candidate.checkpoint_regenerate
 data modify storage kbt:routes draft set from storage kbt:route_runtime phase_copy.candidate
 function kbt:routes/creator/visuals/rebuild
 execute if score #cp_show_all kbt.settings matches 1 run scoreboard players set #rc_show_all kbt.settings 1
-tellraw @s [{"text":"Phase ","color":"aqua"},{"score":{"name":"#cp_phase","objective":"kbt.settings"},"color":"light_purple"},{"text":" rebuilt from the previous phase. Undo restores the previous draft; Save Route keeps the copy.","color":"aqua"}]
+tellraw @s [{"text":"Phase ","color":"aqua"},{"score":{"name":"#cp_phase","objective":"kbt.settings"},"color":"light_purple"},{"text":" rebuilt from the previous phase Undo restores the previous draft; Save Route keeps the copy","color":"aqua"}]

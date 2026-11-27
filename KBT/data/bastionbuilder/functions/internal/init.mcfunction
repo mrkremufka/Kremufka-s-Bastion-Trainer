@@ -1,5 +1,6 @@
 scoreboard objectives add bastion.settings dummy "\u00A7aBastionSettings"
 scoreboard objectives add bastion.temp dummy "\u00A7aBastionTemp"
+
 execute unless score bridge_left_rampart bastion.settings = bridge_left_rampart bastion.settings run scoreboard players set bridge_left_rampart bastion.settings -1
 execute unless score bridge_right_rampart bastion.settings = bridge_right_rampart bastion.settings run scoreboard players set bridge_right_rampart bastion.settings -1
 execute unless score units_left_rampart bastion.settings = units_left_rampart bastion.settings run scoreboard players set units_left_rampart bastion.settings -1

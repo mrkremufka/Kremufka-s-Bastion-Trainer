@@ -4,3 +4,6 @@ NBT route sharing system was made by lollip0529
 https://github.com/lollip0529/Kremufka-s-Bastion-Trainer
 Full Bridge Lava Fix taken from WilbyWillBe's LBP 3.14.0 Full Lava Fix
 https://github.com/WilbyWillBe/bastion/releases/tag/3.14.0-full_lava_fix
+
+Compatible reset, savestate, HUD and tick optimizations adapted from lollip0529 PR #4
+https://github.com/mrkremufka/Kremufka-s-Bastion-Trainer/pull/4

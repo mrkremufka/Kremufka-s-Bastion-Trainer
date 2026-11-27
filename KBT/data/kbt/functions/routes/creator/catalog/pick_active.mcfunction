@@ -9,7 +9,8 @@ execute if score @s kbt.rc_pick matches 7 if data storage kbt:route_runtime list
 execute if score @s kbt.rc_pick matches 8 if data storage kbt:route_runtime list_choices[7] run data modify storage kbt:route_runtime edit_target set from storage kbt:route_runtime list_choices[7]
 execute if score @s kbt.rc_pick matches 9 if data storage kbt:route_runtime list_choices[8] run data modify storage kbt:route_runtime edit_target set from storage kbt:route_runtime list_choices[8]
 execute if score @s kbt.rc_pick matches 10 if data storage kbt:route_runtime list_choices[9] run data modify storage kbt:route_runtime edit_target set from storage kbt:route_runtime list_choices[9]
-execute if data storage kbt:route_runtime edit_target unless data storage kbt:route_runtime edit_target{source:1} run tellraw @s {"text":"Built-in routes are read-only.","color":"yellow"}
+execute if data storage kbt:route_runtime edit_target unless data storage kbt:route_runtime edit_target{source:1} run tellraw @s {"text":"Built-in routes are read-only","color":"yellow"}
 execute if data storage kbt:route_runtime edit_target{source:1} unless data storage kbt:route_runtime edit_target.import_key if data storage kbt:route_runtime edit_target.layout{mode:"snapshot",schema:1} run function kbt:routes/creator/open_record_request
 execute if data storage kbt:route_runtime edit_target{source:1} unless data storage kbt:route_runtime edit_target.import_key unless data storage kbt:route_runtime edit_target.layout{mode:"snapshot",schema:1} run function kbt:routes/creator/catalog/open_unbound
+
 execute if data storage kbt:route_runtime edit_target.import_key run function kbt:routes/creator/import_copy/request

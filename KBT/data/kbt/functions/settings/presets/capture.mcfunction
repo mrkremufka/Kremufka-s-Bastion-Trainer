@@ -2,6 +2,7 @@ execute store result storage kbt:presets selected.settings.bastion int 1 run sco
 execute store result storage kbt:presets selected.settings.gold int 1 run scoreboard players get #gold kbt.settings
 execute store result storage kbt:presets selected.settings.floor int 1 run scoreboard players get #floor kbt.settings
 execute store result storage kbt:presets selected.settings.hoglins int 1 run scoreboard players get #hoglins kbt.settings
+execute store result storage kbt:presets selected.settings.piglins int 1 run scoreboard players get #piglins kbt.settings
 execute store result storage kbt:presets selected.settings.blaze int 1 run scoreboard players get #blaze kbt.settings
 execute store result storage kbt:presets selected.settings.bridge_left int 1 run scoreboard players get #bridge_left kbt.settings
 execute store result storage kbt:presets selected.settings.bridge_right int 1 run scoreboard players get #bridge_right kbt.settings

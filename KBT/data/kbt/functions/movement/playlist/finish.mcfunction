@@ -7,7 +7,7 @@ execute if data storage kbt:movement_playlist session{kind:"saved"} run data mod
 function kbt:movement/playlist/cancel
 scoreboard players set #mv_new_pb kbt.settings 0
 execute unless data storage kbt:movement_playlist session{kind:"saved"} if score #mv_pb_eligible kbt.settings matches 1 if score #mv_total kbt.settings matches 1.. run function kbt:movement/playlist/pb/save
-tellraw @s {"text":"Movement playlist completed! Back in Movement Practice lobby.","color":"gold","bold":true}
+tellraw @s {"text":"Movement playlist completed! Back in Movement Practice lobby","color":"gold","bold":true}
 scoreboard players operation #rt_display kbt.settings = #mv_total kbt.settings
 function kbt:routes/timer/format
 function kbt:routes/timer/result_message

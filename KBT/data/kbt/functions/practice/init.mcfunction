@@ -2,6 +2,7 @@ scoreboard objectives add kbt.gp_loadmode dummy
 execute if score #gp_loading kbt.settings matches 1.. run function kbt:practice/loading/cancel
 scoreboard players set #gp_loading kbt.settings 0
 scoreboard players set #gp_generation kbt.settings 0
+scoreboard players set #gp_piglins_off kbt.settings 0
 scoreboard objectives add kbt.drop_wood minecraft.dropped:minecraft.wooden_pickaxe
 scoreboard objectives add kbt.drop_stone minecraft.dropped:minecraft.stone_pickaxe
 scoreboard objectives add kbt.drop_iron minecraft.dropped:minecraft.iron_pickaxe

@@ -1,0 +1,14 @@
+data remove block ~ ~ ~ Items[{tag:{kbt_menu:1b}}]
+replaceitem block ~ ~ ~ container.4 minecraft:gilded_blackstone{kbt_menu:1b,kbt_action:"title",display:{Name:'{"text":"Bastion Settings 2/2","color":"yellow","bold":true,"italic":false}'}} 1
+replaceitem block ~ ~ ~ container.9 minecraft:arrow{kbt_menu:1b,kbt_action:"previous",display:{Name:'{"text":"Previous Page","color":"white","italic":false}'}} 1
+replaceitem block ~ ~ ~ container.17 minecraft:arrow{kbt_menu:1b,kbt_action:"next",display:{Name:'{"text":"Next Page","color":"white","italic":false}'}} 1
+execute if score #hoglins kbt.settings matches 0 run replaceitem block ~ ~ ~ container.13 minecraft:cooked_porkchop{kbt_menu:1b,kbt_action:"hoglins",display:{Name:'{"text":"Hoglins","color":"yellow","bold":true,"italic":false}',Lore:['{"text":"On","color":"gold","italic":false}','{"text":"Off","color":"gray","italic":false}']}} 1
+execute if score #hoglins kbt.settings matches 1 run replaceitem block ~ ~ ~ container.13 minecraft:cooked_porkchop{kbt_menu:1b,kbt_action:"hoglins",display:{Name:'{"text":"Hoglins","color":"yellow","bold":true,"italic":false}',Lore:['{"text":"On","color":"gray","italic":false}','{"text":"Off","color":"gold","italic":false}']}} 1
+scoreboard players operation @s kbt.hoglins = #hoglins kbt.settings
+execute if score #piglins kbt.settings matches 0 run replaceitem block ~ ~ ~ container.12 minecraft:piglin_spawn_egg{kbt_menu:1b,kbt_action:"piglins",display:{Name:'{"text":"Piglins","color":"yellow","bold":true,"italic":false}',Lore:['{"text":"On","color":"gold","italic":false}','{"text":"Off","color":"gray","italic":false}']}} 1
+execute if score #piglins kbt.settings matches 1 run replaceitem block ~ ~ ~ container.12 minecraft:piglin_spawn_egg{kbt_menu:1b,kbt_action:"piglins",display:{Name:'{"text":"Piglins","color":"yellow","bold":true,"italic":false}',Lore:['{"text":"On","color":"gray","italic":false}','{"text":"Off","color":"gold","italic":false}']}} 1
+scoreboard players operation @s kbt.piglins = #piglins kbt.settings
+execute if score #natural_mobs kbt.settings matches 0 run replaceitem block ~ ~ ~ container.14 minecraft:rotten_flesh{kbt_menu:1b,kbt_action:"natural_mobs",display:{Name:'{"text":"Natural Mobs","color":"yellow","bold":true,"italic":false}',Lore:['{"text":"On","color":"gray","italic":false}','{"text":"Off","color":"gold","italic":false}']}} 1
+execute if score #natural_mobs kbt.settings matches 1 run replaceitem block ~ ~ ~ container.14 minecraft:rotten_flesh{kbt_menu:1b,kbt_action:"natural_mobs",display:{Name:'{"text":"Natural Mobs","color":"yellow","bold":true,"italic":false}',Lore:['{"text":"On","color":"gold","italic":false}','{"text":"Off","color":"gray","italic":false}']}} 1
+scoreboard players operation @s kbt.natural = #natural_mobs kbt.settings
+scoreboard players set @s kbt.gp_layout 2

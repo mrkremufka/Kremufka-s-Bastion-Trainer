@@ -18,4 +18,4 @@ scoreboard players set #sh_diff kbt.settings 1
 execute if data storage kbt:route_runtime found{source:1} unless data storage kbt:route_runtime found.import_key if data storage kbt:route_runtime found.layout{mode:"snapshot",schema:1} store success score #sh_diff kbt.settings run data modify storage kbt:share compare set from storage kbt:share incoming
 execute if score #sh_diff kbt.settings matches 0 run scoreboard players set #sh_same kbt.settings 1
 execute if data storage kbt:share blocks_loaded run scoreboard players set #sh_same kbt.settings 0
-execute if score #sh_same kbt.settings matches 1 run tellraw @s {"text":"This route is already up to date.","color":"green"}
+execute if score #sh_same kbt.settings matches 1 run tellraw @s {"text":"This route is already up to date","color":"green"}

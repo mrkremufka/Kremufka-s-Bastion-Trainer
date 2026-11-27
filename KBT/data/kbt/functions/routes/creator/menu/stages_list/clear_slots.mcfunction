@@ -1,0 +1,10 @@
+scoreboard players set #rsm_slot_1 kbt.settings 0
+scoreboard players set #rsm_slot_2 kbt.settings 0
+scoreboard players set #rsm_slot_3 kbt.settings 0
+scoreboard players set #rsm_slot_4 kbt.settings 0
+scoreboard players set #rsm_slot_5 kbt.settings 0
+scoreboard players set #rsm_slot_6 kbt.settings 0
+scoreboard players set #rsm_slot_7 kbt.settings 0
+scoreboard players set #rsm_slot_8 kbt.settings 0
+scoreboard players set #rsm_slot_9 kbt.settings 0
+scoreboard players set #rsm_slot_10 kbt.settings 0

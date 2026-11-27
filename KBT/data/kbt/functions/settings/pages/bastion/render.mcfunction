@@ -57,3 +57,4 @@ scoreboard players operation @s kbt.hl = #h_left kbt.settings
 execute if score #gp_bastion kbt.settings matches 0 if score #bridge_lava kbt.settings matches 0 run replaceitem block ~ ~ ~ container.14 minecraft:lava_bucket{kbt_menu:1b,kbt_action:"bridge_lava",display:{Name:'{"text":"Lava Fix","color":"yellow","bold":true,"italic":false}',Lore:['{"text":"On","color":"gray","italic":false}','{"text":"Off","color":"gold","italic":false}']}} 1
 execute if score #gp_bastion kbt.settings matches 0 if score #bridge_lava kbt.settings matches 1 run replaceitem block ~ ~ ~ container.14 minecraft:lava_bucket{kbt_menu:1b,kbt_action:"bridge_lava",display:{Name:'{"text":"Lava Fix","color":"yellow","bold":true,"italic":false}',Lore:['{"text":"On","color":"gold","italic":false}','{"text":"Off","color":"gray","italic":false}']}} 1
 scoreboard players operation @s kbt.blava = #bridge_lava kbt.settings
+

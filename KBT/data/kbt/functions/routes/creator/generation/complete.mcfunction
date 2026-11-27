@@ -9,5 +9,5 @@ kill @e[type=minecraft:armor_stand,tag=kbt.rp_start_point]
 function kbt:routes/creator/generation/cancel
 function kbt:routes/creator/refresh
 function kbt:routes/creator/menu
-tellraw @s {"text":"Bastion generation updated. Checking Start and required block targets...","color":"green"}
+tellraw @s {"text":"Bastion generation updated Checking Start and required block targets","color":"green"}
 function kbt:routes/creator/layout_check/open

@@ -3,6 +3,7 @@ function kbt:arena/reset_state
 scoreboard players set #bb_inplace kbt.settings 0
 execute if score #arena_built_floor kbt.settings matches 2 run function kbt:arena/invalidate
 execute if score #gen_target kbt.settings matches 0..3 if score #arena_built_type kbt.settings = #gen_target kbt.settings if score #natural_mobs kbt.settings matches 0 if score #arena_outer_dirty kbt.settings matches 0 if score #arena_high_dirty kbt.settings matches 0 run scoreboard players set #bb_inplace kbt.settings 1
+scoreboard players set #bb_inplace kbt.settings 0
 execute if score #bb_inplace kbt.settings matches 1 if score #gen_target kbt.settings matches 0 run function kbt:arena/clear_dynamic_0
 execute if score #bb_inplace kbt.settings matches 1 if score #gen_target kbt.settings matches 1 run function kbt:arena/clear_dynamic_1
 execute if score #bb_inplace kbt.settings matches 1 if score #gen_target kbt.settings matches 2 run function kbt:arena/clear_dynamic_2

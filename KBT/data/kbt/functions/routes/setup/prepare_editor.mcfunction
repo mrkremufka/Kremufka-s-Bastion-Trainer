@@ -5,4 +5,4 @@ execute store result score #rp_id kbt.settings run data get storage kbt:routes d
 scoreboard players set #rp_request kbt.settings 1
 data modify storage kbt:route_practice open_editor_after_bind set from storage kbt:routes draft.id
 function kbt:routes/practice/job/begin
-tellraw @s {"text":"Saving the clean bastion and mobs before editing. Please wait for the editor to open.","color":"aqua"}
+tellraw @s {"text":"Saving the clean bastion and mobs before editing Please wait for the editor to open","color":"aqua"}

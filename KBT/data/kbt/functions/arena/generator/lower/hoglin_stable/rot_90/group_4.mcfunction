@@ -1,0 +1,10 @@
+execute if score stables_lower bastion.temp matches 41 run function bastionbuilder:internal/place/hoglin_stable/lower/lower_40/rot_90
+execute if score stables_lower bastion.temp matches 42 run function bastionbuilder:internal/place/hoglin_stable/lower/lower_41/rot_90
+execute if score stables_lower bastion.temp matches 43 run function bastionbuilder:internal/place/hoglin_stable/lower/lower_42/rot_90
+execute if score stables_lower bastion.temp matches 44 run function bastionbuilder:internal/place/hoglin_stable/lower/lower_43/rot_90
+execute if score stables_lower bastion.temp matches 45 run function bastionbuilder:internal/place/hoglin_stable/lower/lower_44/rot_90
+execute if score stables_lower bastion.temp matches 46 run function bastionbuilder:internal/place/hoglin_stable/lower/lower_45/rot_90
+execute if score stables_lower bastion.temp matches 47 run function bastionbuilder:internal/place/hoglin_stable/lower/lower_46/rot_90
+execute if score stables_lower bastion.temp matches 48 run function bastionbuilder:internal/place/hoglin_stable/lower/lower_47/rot_90
+execute if score stables_lower bastion.temp matches 49 run function bastionbuilder:internal/place/hoglin_stable/lower/lower_48/rot_90
+execute if score stables_lower bastion.temp matches 50 run function bastionbuilder:internal/place/hoglin_stable/lower/lower_49/rot_90

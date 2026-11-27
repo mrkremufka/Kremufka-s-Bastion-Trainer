@@ -1,0 +1,10 @@
+execute if score units_lower bastion.temp matches 21 run function bastionbuilder:internal/place/units/lower/lower_20/rot_90
+execute if score units_lower bastion.temp matches 22 run function bastionbuilder:internal/place/units/lower/lower_21/rot_90
+execute if score units_lower bastion.temp matches 23 run function bastionbuilder:internal/place/units/lower/lower_22/rot_90
+execute if score units_lower bastion.temp matches 24 run function bastionbuilder:internal/place/units/lower/lower_23/rot_90
+execute if score units_lower bastion.temp matches 25 run function bastionbuilder:internal/place/units/lower/lower_24/rot_90
+execute if score units_lower bastion.temp matches 26 run function bastionbuilder:internal/place/units/lower/lower_25/rot_90
+execute if score units_lower bastion.temp matches 27 run function bastionbuilder:internal/place/units/lower/lower_26/rot_90
+execute if score units_lower bastion.temp matches 28 run function bastionbuilder:internal/place/units/lower/lower_27/rot_90
+execute if score units_lower bastion.temp matches 29 run function bastionbuilder:internal/place/units/lower/lower_28/rot_90
+execute if score units_lower bastion.temp matches 30 run function bastionbuilder:internal/place/units/lower/lower_29/rot_90

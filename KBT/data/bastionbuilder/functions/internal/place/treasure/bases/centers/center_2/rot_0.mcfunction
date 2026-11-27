@@ -1,4 +1,7 @@
-setblock ~ ~ ~ structure_block{mode:"LOAD",rotation:"NONE",name:"bastionbuilder:lower/treasure/center_2"}
-setblock ~ ~1 ~ redstone_block
-scoreboard players add current bastion.rng 2
+clone ~ ~ ~ ~ ~1 ~ ~ 254 ~
+function bastionbuilder:internal/foundations/treasure/bases/centers/center_2/rot_0
+function bastionbuilder:internal/processors/treasure/bases/centers/center_2/processor_0/rot_0
+function bastionbuilder:internal/processors/treasure/bases/centers/center_2/processor_1/rot_0
+function bastionbuilder:internal/origins/treasure/bases/centers/center_2
 function bastionbuilder:internal/extensions/treasure/bases/centers/center_2/rot_0
+fill ~ 254 ~ ~ 255 ~ air

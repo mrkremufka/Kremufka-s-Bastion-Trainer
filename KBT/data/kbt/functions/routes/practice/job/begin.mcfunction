@@ -26,6 +26,7 @@ scoreboard players set #rp_tile kbt.settings 0
 scoreboard players set #rp_retry kbt.settings 0
 scoreboard players set #rp_elapsed kbt.settings 0
 scoreboard players set #rp_wait kbt.settings 0
+
 function kbt:routes/practice/job/select_bank
 execute unless data storage kbt:route_practice job_record.layout{mode:"builtin"} run function kbt:routes/practice/job/position
 execute in minecraft:the_nether run forceload add 936 936 1063 1063
@@ -39,3 +40,4 @@ execute if score #rp_job kbt.settings matches 1 if score #lava_wait kbt.settings
 scoreboard players set #rp_hud_clock kbt.settings 3
 scoreboard players set #rp_hud_seen_phase kbt.settings -1
 function kbt:routes/practice/job/progress/tick
+

@@ -16,4 +16,4 @@ execute positioned ~9 ~19 ~6 run function bastionbuilder:internal/place/mobs/pig
 execute positioned ~7 ~20 ~16 run function bastionbuilder:internal/place/mobs/piglin
 execute positioned ~13 ~20 ~27 run function bastionbuilder:internal/place/mobs/piglin
 execute positioned ~9 ~16 ~4 run function bastionbuilder:internal/utils/chest_loot/mark_chest
-execute if score id_piglins bastion.settings matches 1.. positioned ~2 ~2 ~4 as @e[type=piglin, tag=bastion_mob, dx=13, dy=18, dz=24] run function kbt:debug/mark_origin/16
+execute if score id_piglins bastion.settings matches 1.. positioned ~2 ~2 ~4 as @e[type=piglin, tag=bastion_mob, dx=13, dy=18, dz=24] run data modify entity @s CustomName set value '{"text":"starting_pieces/entrance","color":"yellow"}'

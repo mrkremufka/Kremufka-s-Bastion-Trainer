@@ -32,5 +32,5 @@ execute if score @s kbt.rc_mode matches 1 run gamemode creative @s
 execute if score @s kbt.rc_mode matches 2 run gamemode adventure @s
 execute if score @s kbt.rc_mode matches 3 run gamemode spectator @s
 function kbt:practice/difficulty
-execute if score #rc_empty_discarded kbt.settings matches 0 run tellraw @s {"text":"Route Creator closed. Draft kept; use /function kbt:routes/creator/start to resume.","color":"gold"}
-execute if score #rc_empty_discarded kbt.settings matches 1 run tellraw @s {"text":"Creator closed. Empty draft discarded.","color":"gold"}
+execute if score #rc_empty_discarded kbt.settings matches 0 run tellraw @s {"text":"Route Creator closed Draft kept; use /function kbt:routes/creator/start to resume","color":"gold"}
+execute if score #rc_empty_discarded kbt.settings matches 1 run tellraw @s {"text":"Creator closed Empty draft discarded","color":"gold"}

@@ -5,5 +5,5 @@ execute if entity @s[type=minecraft:player] if data storage kbt:route_practice l
 scoreboard players set #rp_restart kbt.settings 1
 execute if entity @s[type=minecraft:player] if data storage kbt:route_practice last_id if score #mpl_check_restart_ok kbt.settings matches 1 run function kbt:routes/practice/request
 scoreboard players set #rp_restart kbt.settings 0
-execute if entity @s[type=minecraft:player] unless data storage kbt:route_practice last_id run tellraw @s {"text":"No previous Route Practice to restart.","color":"red"}
+execute if entity @s[type=minecraft:player] unless data storage kbt:route_practice last_id run tellraw @s {"text":"No previous Route Practice to restart","color":"red"}
 scoreboard players enable @s kbt.rp_action

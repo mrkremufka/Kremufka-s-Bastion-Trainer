@@ -8,4 +8,4 @@ execute if data storage kbt:movement_playlists draft.trail_ids run data modify s
 execute if score #mpl_save_valid kbt.settings matches 1 run function kbt:movement/playlists/check_list
 execute if score #mpl_save_valid kbt.settings matches 1 unless score #mpl_check_valid kbt.settings matches 1 run scoreboard players set #mpl_save_valid kbt.settings 0
 execute if score #mpl_save_valid kbt.settings matches 1 run function kbt:movement/playlists/save_id
-execute unless score #mpl_save_valid kbt.settings matches 1 run tellraw @s {"text":"Playlist not saved. Use a name of 1..64 characters and unique saved Movement trails with available layouts","color":"yellow"}
+execute unless score #mpl_save_valid kbt.settings matches 1 run tellraw @s {"text":"Playlist not saved Use a name of 1..64 characters and unique saved Movement trails with available layouts","color":"yellow"}

@@ -3,7 +3,6 @@ data remove storage kbt:route_runtime validate_elements[0]
 scoreboard players set #rc_last_type kbt.settings 0
 scoreboard players set #rc_element_stage kbt.settings 0
 execute store result score #rc_last_type kbt.settings run data get storage kbt:route_runtime validate_element.type
-execute if data storage kbt:routes draft{mode:"movement"} unless score #rc_last_type kbt.settings matches 2 unless score #rc_last_type kbt.settings matches 4 unless score #rc_last_type kbt.settings matches 6 unless score #rc_last_type kbt.settings matches 10..11 run scoreboard players set #rc_save_valid kbt.settings 0
 execute unless score #rc_last_type kbt.settings matches 2..6 unless score #rc_last_type kbt.settings matches 8 unless score #rc_last_type kbt.settings matches 10..13 unless score #rc_last_type kbt.settings matches 15 unless score #rc_last_type kbt.settings matches 17 unless score #rc_last_type kbt.settings matches 21 run scoreboard players set #rc_save_valid kbt.settings 0
 execute store result score #rc_element_stage kbt.settings run data get storage kbt:route_runtime validate_element.stage
 execute unless score #rc_element_stage kbt.settings = #rc_expected kbt.settings run scoreboard players set #rc_save_valid kbt.settings 0

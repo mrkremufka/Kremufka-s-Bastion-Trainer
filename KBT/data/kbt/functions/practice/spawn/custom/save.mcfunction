@@ -8,4 +8,4 @@ execute unless score #cs_x kbt.settings matches 936..1063 run scoreboard players
 execute unless score #cs_y kbt.settings matches 129..255 run scoreboard players set #cs_save_ok kbt.settings 0
 execute unless score #cs_z kbt.settings matches 936..1063 run scoreboard players set #cs_save_ok kbt.settings 0
 execute if score #cs_save_ok kbt.settings matches 1 run function kbt:practice/spawn/custom/save_ready
-execute if score #cs_save_ok kbt.settings matches 0 run tellraw @s {"text":"Custom spawnpoints can only be saved inside the bastion arena during General Practice.","color":"red"}
+execute if score #cs_save_ok kbt.settings matches 0 run tellraw @s {"text":"Custom spawnpoints can only be saved inside the bastion arena during General Practice","color":"red"}

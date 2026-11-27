@@ -7,7 +7,9 @@ scoreboard players set bastion_type bastion.temp 1
 scoreboard players set bastion_rotation bastion.temp 1
 function kbt:share/recipe/capture
 scoreboard players set bridge_lava_fix bastion.settings 0
+scoreboard players set #gen_precleaned kbt.settings 1
 execute in the_nether positioned 1000 130 1000 run function bastionbuilder:generate
+scoreboard players set #gen_precleaned kbt.settings 0
 scoreboard players set #bb_inplace kbt.settings 0
 scoreboard players set #bb_buried_same kbt.settings 0
 scoreboard players operation bridge_lava_fix bastion.settings = #bridge_lava kbt.settings

@@ -1,10 +1,12 @@
+execute as @a[scores={kbt.creator=1,kbt.rc_stageui=1..32}] run function kbt:routes/creator/menu/stages_list/input
 execute as @a[scores={kbt.creator=1,kbt.rc_edit=1..}] run function kbt:routes/creator/edit/input
 execute as @a[scores={kbt.creator=1,kbt.rc_move=1..}] at @s run function kbt:routes/creator/move/input
 execute as @a[scores={kbt.creator=1,kbt.rc_menu=135}] run function kbt:routes/creator/move/select
-execute as @a[scores={kbt.creator=1,kbt.rc_menu=136}] unless data storage kbt:routes draft{mode:"movement"} run function kbt:routes/creator/gold/select
+execute as @a[scores={kbt.creator=1,kbt.rc_menu=136}] run function kbt:routes/creator/gold/select
 execute as @a[scores={kbt.creator=1,kbt.rc_menu=137}] at @s run function kbt:routes/creator/layout_check/open
 execute as @a[scores={kbt.creator=1,kbt.rc_menu=133}] at @s run function kbt:routes/creator/generation/open
 execute as @a[scores={kbt.creator=1,kbt.rc_menu=134}] run function kbt:routes/creator/phase_copy/start
+execute as @a[scores={kbt.creator=1,kbt.rc_menu=139..140}] run function kbt:routes/creator/phases/request
 execute as @a[scores={kbt.creator=1,kbt.rc_gen=1..}] at @s run function kbt:routes/creator/generation/actions
 execute as @a[scores={kbt.creator=1,kbt.hp=0}] run function kbt:routes/creator/exit_active
 execute as @a[scores={kbt.creator=1,kbt.hp=1..},nbt={Dimension:"minecraft:the_nether"}] at @s run function kbt:routes/creator/preview/tick
@@ -35,8 +37,8 @@ execute as @a[scores={kbt.creator=1,kbt.rc_menu=63}] run function kbt:routes/cre
 execute as @a[scores={kbt.creator=1,kbt.rc_menu=138}] run function kbt:routes/creator/message/toggle_activation
 execute as @a[scores={kbt.creator=1,kbt.rc_menu=8}] run function kbt:routes/creator/menu
 execute as @a[scores={kbt.creator=1,kbt.rc_menu=120}] unless data storage kbt:routes draft{mode:"movement"} run function kbt:routes/creator/menu/settings
-execute as @a[scores={kbt.creator=1,kbt.rc_menu=121}] unless data storage kbt:routes draft{mode:"movement"} run function kbt:routes/creator/menu/stages
-execute as @a[scores={kbt.creator=1,kbt.rc_menu=122}] unless data storage kbt:routes draft{mode:"movement"} run function kbt:routes/creator/menu/advanced
+execute as @a[scores={kbt.creator=1,kbt.rc_menu=121}] run function kbt:routes/creator/menu/stages
+execute as @a[scores={kbt.creator=1,kbt.rc_menu=122}] run function kbt:routes/creator/menu/advanced
 execute as @a[scores={kbt.creator=1,kbt.rc_menu=10}] run function kbt:routes/creator/give_wand
 execute as @a[scores={kbt.creator=1,kbt.rc_menu=9}] if data storage kbt:routes draft{mode:"movement"} run function kbt:routes/creator/controls/exit_to_lobby
 execute as @a[scores={kbt.creator=1,kbt.rc_menu=9}] unless data storage kbt:routes draft{mode:"movement"} run function kbt:routes/creator/exit

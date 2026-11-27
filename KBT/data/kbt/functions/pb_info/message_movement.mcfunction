@@ -1,0 +1,1 @@
+tellraw @s [{"text":"Movement PB: ","color":"gold","bold":true},{"text":"Your best total time for the entire playlist of the selected bastion type All trails in that playlist count towards this record","color":"yellow","bold":false}]

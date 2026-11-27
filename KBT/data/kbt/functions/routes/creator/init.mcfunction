@@ -1,5 +1,7 @@
 scoreboard objectives add kbt.creator dummy
+scoreboard players set #rc_nav_quiet kbt.settings 0
 scoreboard objectives add kbt.rc_menu trigger
+scoreboard objectives add kbt.rc_stageui trigger
 scoreboard objectives add kbt.rc_pick trigger
 scoreboard objectives add kbt.rc_head trigger
 scoreboard players set @a kbt.rc_head 0

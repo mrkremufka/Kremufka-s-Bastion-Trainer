@@ -13,4 +13,4 @@ execute if score #rc_generating kbt.settings matches 1 run scoreboard players se
 execute if data storage kbt:routes editor.pending{browser:1b,browser_mode:"movement"} unless data storage kbt:route_setup {creator_mode:"movement"} run scoreboard players set #rc_delete_valid kbt.settings 0
 execute if data storage kbt:routes editor.pending{browser:1b,browser_mode:"route"} unless data storage kbt:route_setup {creator_mode:"route"} run scoreboard players set #rc_delete_valid kbt.settings 0
 execute if score #rc_delete_valid kbt.settings matches 1 run function kbt:routes/creator/manage/delete_apply
-execute unless score #rc_delete_valid kbt.settings matches 1 run tellraw @s {"text":"Deletion cancelled: the saved entry changed, the browser changed, or practice/copying is active. Nothing was deleted; request Delete again from Saved Routes.","color":"yellow"}
+execute unless score #rc_delete_valid kbt.settings matches 1 run tellraw @s {"text":"Deletion cancelled: the saved entry changed, the browser changed, or practice/copying is active Nothing was deleted; request Delete again from Saved Routes","color":"yellow"}

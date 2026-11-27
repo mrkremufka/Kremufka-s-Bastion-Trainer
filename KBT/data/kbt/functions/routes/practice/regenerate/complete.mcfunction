@@ -2,6 +2,7 @@ data remove storage kbt:route_practice regeneration
 tag @s remove kbt.rp_regen
 function kbt:routes/practice/mobs/restore
 execute if data storage kbt:route_practice route.setup{ramparts_schema:1} run function kbt:routes/practice/ramparts/apply
+execute unless data storage kbt:route_practice route{mode:"movement"} in minecraft:the_nether run function kbt:routes/practice/loot/prepare
 data modify storage kbt:route_practice element set from storage kbt:route_practice route.start
 function kbt:routes/practice/marker/spawn
 data modify entity @e[type=minecraft:armor_stand,tag=kbt.rp_start_point,limit=1] Rotation set from storage kbt:route_practice route.start.rotation
@@ -21,7 +22,7 @@ execute unless score #rp_phase kbt.settings matches 1.. run scoreboard players s
 execute unless data storage kbt:route_practice phase_retry run scoreboard players add #rp_phase kbt.settings 1
 execute if data storage kbt:route_practice phase_retry run function kbt:routes/practice/phase/restore
 function kbt:routes/practice/phase/capture
-function kbt:routes/practice/stage/advance
+function kbt:routes/practice/stage/advance_phase
 execute if score #rp_active kbt.settings matches 1 unless data storage kbt:route_practice phase_retry run function kbt:routes/practice/regenerate/rearm
 execute if score #rp_active kbt.settings matches 1 if data storage kbt:route_practice phase_retry run function kbt:routes/practice/phase/arm
 data remove storage kbt:route_practice phase_retry

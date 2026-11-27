@@ -18,7 +18,7 @@ execute unless entity @s[type=minecraft:player] run tag @p add kbt.start_player
 execute in minecraft:the_nether run forceload add 936 936 1063 1063
 scoreboard players set @a[tag=kbt.start_player] kbt.run 0
 execute unless score #rc_generating kbt.settings matches 1 unless score #rp_job kbt.settings matches 1.. unless entity @a[tag=kbt.start_player,scores={kbt.edit=1..3}] unless entity @a[tag=kbt.start_player,scores={kbt.creator=1}] run function kbt:practice/loading/queue
-execute if score #rc_generating kbt.settings matches 1 run tellraw @a[tag=kbt.start_player] {"text":"Wait for Create Route to finish.","color":"yellow"}
-execute if score #rp_job kbt.settings matches 1.. run tellraw @a[tag=kbt.start_player] {"text":"Wait for the route layout copy to finish.","color":"yellow"}
-tellraw @a[tag=kbt.start_player,scores={kbt.creator=1}] {"text":"Exit Route Creator before starting practice. Your draft will be kept.","color":"red"}
-tellraw @a[tag=kbt.start_player,scores={kbt.edit=1..3}] {"text":"Save your loadout before starting practice.","color":"red"}
+execute if score #rc_generating kbt.settings matches 1 run tellraw @a[tag=kbt.start_player] {"text":"Wait for Create Route to finish","color":"yellow"}
+execute if score #rp_job kbt.settings matches 1.. run tellraw @a[tag=kbt.start_player] {"text":"Wait for the route layout copy to finish","color":"yellow"}
+tellraw @a[tag=kbt.start_player,scores={kbt.creator=1}] {"text":"Exit Route Creator before starting practice Your draft will be kept","color":"red"}
+tellraw @a[tag=kbt.start_player,scores={kbt.edit=1..3}] {"text":"Save your loadout before starting practice","color":"red"}

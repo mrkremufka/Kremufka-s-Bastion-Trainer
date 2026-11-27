@@ -26,4 +26,4 @@ execute if score #rc_valid kbt.settings matches 1 if score #rc_tool kbt.settings
 execute if score #rc_valid kbt.settings matches 1 if score #rc_tool kbt.settings matches 17 run function kbt:routes/creator/hoglin_region/begin
 execute if score #rc_valid kbt.settings matches 1 if score #rc_tool kbt.settings matches 8 run function kbt:routes/creator/text/begin
 execute if score #rc_valid kbt.settings matches 1 if score #rc_tool kbt.settings matches 12 run function kbt:routes/creator/message/begin
-execute unless score #rc_valid kbt.settings matches 1 run tellraw @s {"text":"No valid target within 6 blocks. Place tools need an empty adjacent cell; aim at a solid block face.","color":"red"}
+execute unless score #rc_valid kbt.settings matches 1 run tellraw @s {"text":"No valid target within 6 blocks Place tools need an empty adjacent cell; aim at a solid block face","color":"red"}

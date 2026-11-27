@@ -15,4 +15,4 @@ execute if score #rc_delete_slot kbt.settings matches 9 if data storage kbt:rout
 execute if score #rc_delete_slot kbt.settings matches 10 if data storage kbt:route_runtime list_choices[9] run data modify storage kbt:route_runtime delete_target set from storage kbt:route_runtime list_choices[9]
 scoreboard players set #rc_delete_valid kbt.settings 0
 execute if data storage kbt:route_runtime delete_target{source:1} unless data storage kbt:route_runtime delete_target.import_key run function kbt:routes/creator/catalog/delete_pick_found
-execute unless score #rc_delete_valid kbt.settings matches 1 run tellraw @s {"text":"This saved entry changed, disappeared or is read-only. Reopen Saved Routes and try again.","color":"yellow"}
+execute unless score #rc_delete_valid kbt.settings matches 1 run tellraw @s {"text":"This saved entry changed, disappeared or is read-only Reopen Saved Routes and try again","color":"yellow"}

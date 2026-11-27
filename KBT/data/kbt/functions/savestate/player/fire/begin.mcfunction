@@ -12,4 +12,4 @@ execute if data storage kbt:savestate current{burning:1b} run setblock 1005 255 
 execute unless data storage kbt:savestate current{burning:1b} run setblock 1005 255 -1007 minecraft:cauldron[level=3]
 gamemode adventure @s
 tp @s 1005.5 255 -1006.5
-title @s actionbar {"text":"Restoring player state...","color":"aqua"}
+title @s actionbar {"text":"Restoring player state","color":"aqua"}

@@ -1,3 +1,2 @@
-execute if score #kbt_tick2 kbt.settings matches 0 unless score #custom_settings_chest kbt.settings matches 1 in minecraft:the_nether positioned 23.5 129 33.5 if entity @a[distance=..8] as @e[type=minecraft:armor_stand,tag=kbt.settings_chest,distance=..0.5] at @s run function kbt:settings/check
-execute if score #kbt_tick2 kbt.settings matches 0 if score #custom_settings_chest kbt.settings matches 1 at @a as @e[type=minecraft:armor_stand,tag=kbt.settings_chest,distance=..8] at @s run function kbt:settings/check
-execute if score #kbt_tick5 kbt.settings matches 0 at @a[tag=kbt.in_lobby] run kill @e[type=minecraft:item,distance=..32,nbt={Item:{tag:{kbt_menu:1b}}}]
+execute as @e[type=minecraft:armor_stand,tag=kbt.settings_chest] at @s if entity @a[distance=..8] run function kbt:settings/check
+kill @e[type=minecraft:item,nbt={Item:{tag:{kbt_menu:1b}}}]

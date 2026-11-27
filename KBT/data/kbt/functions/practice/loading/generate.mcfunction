@@ -14,8 +14,12 @@ data modify storage kbt:general_practice menu set from storage kbt:general_pract
 execute unless score #gp_replay kbt.settings matches 1 run function kbt:practice/scenario/prepare_new
 execute if score #gp_replay kbt.settings matches 1 run function kbt:practice/scenario/prepare_restart
 scoreboard players set #gp_generation kbt.settings 1
+scoreboard players set #gp_piglins_off kbt.settings 0
+execute if score #piglins kbt.settings matches 1 run scoreboard players set #gp_piglins_off kbt.settings 1
 function kbt:arena/generate_selected
+scoreboard players set #gp_piglins_off kbt.settings 0
 scoreboard players set #gp_generation kbt.settings 0
+
 function kbt:practice/scenario/capture_settings
 data modify storage kbt:general_practice loading set value {}
 data modify storage kbt:general_practice loading.settings set from storage kbt:general_practice settings

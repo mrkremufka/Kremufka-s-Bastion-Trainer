@@ -15,8 +15,8 @@ execute if data storage kbt:presets pick_queue[0].id run data modify storage kbt
 execute if data storage kbt:presets pick_queue[0].id if data storage kbt:presets lookup_queue[0] run function kbt:settings/presets/lookup
 execute if score #ps_action kbt.settings matches 0 run function kbt:settings/presets/validate
 execute if score #ps_action kbt.settings matches 0 if score #ps_valid kbt.settings matches 1 run function kbt:settings/presets/load
-execute if score #ps_action kbt.settings matches 0 unless score #ps_valid kbt.settings matches 1 run tellraw @s {"text":"Preset unavailable. Open the list again.","color":"yellow"}
+execute if score #ps_action kbt.settings matches 0 unless score #ps_valid kbt.settings matches 1 run tellraw @s {"text":"Preset unavailable Open the list again","color":"yellow"}
 execute if score #ps_action kbt.settings matches 1 if data storage kbt:presets selected run function kbt:settings/presets/rename/start
 execute if score #ps_action kbt.settings matches 2 if data storage kbt:presets selected run function kbt:settings/presets/delete/prompt
 execute if score #ps_action kbt.settings matches 3 if data storage kbt:presets selected run function kbt:settings/presets/random/pool_toggle
-execute if score #ps_action kbt.settings matches 1..3 unless data storage kbt:presets selected run tellraw @s {"text":"Preset unavailable. Open the list again.","color":"yellow"}
+execute if score #ps_action kbt.settings matches 1..3 unless data storage kbt:presets selected run tellraw @s {"text":"Preset unavailable Open the list again","color":"yellow"}

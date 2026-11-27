@@ -1,2 +1,2 @@
-execute if score @s kbt.creator matches 1 unless score @s kbt.rc_name matches 1 run tellraw @s {"text":"Click Name Route first to start naming this draft.","color":"yellow"}
+execute if score @s kbt.creator matches 1 unless score @s kbt.rc_name matches 1 run tellraw @s {"text":"Click Name Route first to start naming this draft","color":"yellow"}
 execute if score @s kbt.creator matches 1 if score @s kbt.rc_name matches 1 run function kbt:routes/creator/naming/choose_input

@@ -1,2 +1,2 @@
-execute if score #ph_enabled kbt.settings matches 1 if score #ph_valid kbt.settings matches 1 if score #ph_recorded kbt.settings matches 0 if score #rt_state kbt.settings matches 2 if score #ph_ticks kbt.settings matches 1..214748363 run function kbt:routes/practice/phase/stats/save
+execute unless score #rp_no_time kbt.settings matches 1 if score #ph_enabled kbt.settings matches 1 if score #ph_valid kbt.settings matches 1 if score #ph_recorded kbt.settings matches 0 if score #rt_state kbt.settings matches 2 if score #ph_ticks kbt.settings matches 1..214748363 run function kbt:routes/practice/phase/stats/save
 execute if score #ph_enabled kbt.settings matches 1 if score #ph_loop kbt.settings matches 1 run scoreboard players set #rp_advance kbt.settings 5

@@ -5,6 +5,7 @@ function kbt:routes/settings/capture_mode
 difficulty easy
 function kbt:routes/practice/mobs/restore
 execute if data storage kbt:route_practice route.setup{ramparts_schema:1} run function kbt:routes/practice/ramparts/apply
+execute unless data storage kbt:route_practice route{mode:"movement"} in minecraft:the_nether run function kbt:routes/practice/loot/prepare
 data modify storage kbt:route_practice last_id set from storage kbt:route_practice route.id
 data modify storage kbt:route_practice stages set from storage kbt:route_practice route.stages
 scoreboard players set #rp_stage kbt.settings 0
@@ -25,6 +26,7 @@ tp @s @e[type=minecraft:armor_stand,tag=kbt.rp_start_point,limit=1]
 data modify entity @e[type=minecraft:armor_stand,tag=kbt.rp_start_point,limit=1] ArmorItems set value [{},{},{},{}]
 kill @e[type=minecraft:armor_stand,tag=kbt.rp_start_point]
 gamemode survival @s
+scoreboard players set #rp_no_time kbt.settings 0
 execute in minecraft:the_nether at @s run function kbt:practice/extinguish
 effect give @s minecraft:instant_health 1 10 true
 function kbt:loadout/apply

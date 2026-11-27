@@ -25,6 +25,10 @@
     "minecraft:piglin_spawn_egg",
     "minecraft:hoglin_spawn_egg",
     "minecraft:paper",
-    "minecraft:gold_ingot"
+    "minecraft:gold_ingot",
+    "minecraft:emerald",
+    "minecraft:note_block",
+    "minecraft:writable_book",
+    "minecraft:chorus_plant"
   ]
 }

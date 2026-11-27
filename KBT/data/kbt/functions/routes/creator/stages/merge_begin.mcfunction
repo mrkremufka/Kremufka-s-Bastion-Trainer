@@ -11,4 +11,4 @@ execute if data storage kbt:routes draft.finish if score #rc_finish_stage kbt.se
 execute if data storage kbt:routes draft.finish store result storage kbt:routes draft.finish.stage int 1 run scoreboard players get #rc_finish_stage kbt.settings
 data modify storage kbt:routes draft.ready set value 0b
 function kbt:routes/creator/visuals/rebuild
-tellraw @s {"text":"Closing checkpoint removed; next stage merged into this one. Undo restores both stages.","color":"aqua"}
+tellraw @s {"text":"Closing checkpoint removed; next stage merged into this one Undo restores both stages","color":"aqua"}

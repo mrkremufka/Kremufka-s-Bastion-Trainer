@@ -25,10 +25,12 @@ execute if score #rc_list_tab kbt.settings matches 1 unless data storage kbt:rou
 execute if score #rc_list_tab kbt.settings matches 1 if data storage kbt:route_setup {creator_mode:"movement"} run tellraw @s {"text":"--- IMPORTED MOVEMENT TRAILS ---","color":"aqua","bold":true}
 function kbt:routes/creator/catalog/list_tabs
 scoreboard players set #rc_page kbt.settings 10
-execute if score #rc_list_tab kbt.settings matches 0 unless data storage kbt:route_runtime list_queue[0] run tellraw @s {"text":"No saved routes.","color":"gray"}
-execute if score #rc_list_tab kbt.settings matches 1 unless data storage kbt:route_runtime list_queue[0] run tellraw @s {"text":"No imported routes or trails in this browser.","color":"gray"}
+execute if score #rc_list_tab kbt.settings matches 0 unless data storage kbt:route_runtime list_queue[0] run tellraw @s {"text":"No saved routes","color":"gray"}
+execute if score #rc_list_tab kbt.settings matches 1 unless data storage kbt:route_runtime list_queue[0] run tellraw @s {"text":"No imported routes or trails in this browser","color":"gray"}
 execute if data storage kbt:route_runtime list_queue[0] run function kbt:routes/creator/catalog/list_row
 function kbt:routes/creator/catalog/list_navigation
+
 tellraw @s {"text":"[Drafts]","color":"yellow","clickEvent":{"action":"run_command","value":"/trigger kbt.rc_menu set 130"}}
+
 scoreboard players enable @s kbt.share
 tellraw @s {"text":"[Import .nbt]","color":"green","clickEvent":{"action":"run_command","value":"/trigger kbt.share set 3"}}

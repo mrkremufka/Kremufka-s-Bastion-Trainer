@@ -28,5 +28,5 @@ execute if score @s kbt.rc_setup matches 31 if score #bastion kbt.settings match
 execute if score #bridge_lava kbt.settings matches 2.. run scoreboard players set #bridge_lava kbt.settings 0
 execute if score @s kbt.rc_setup matches 90 run function kbt:routes/setup/prepare
 execute if score @s kbt.rc_setup matches 91 run scoreboard players set @s kbt.rc_wiz 0
-execute if score @s kbt.rc_setup matches 91 run tellraw @s {"text":"Route setup closed. Arena and draft were not replaced.","color":"gray"}
+execute if score @s kbt.rc_setup matches 91 run tellraw @s {"text":"Route setup closed Arena and draft were not replaced","color":"gray"}
 execute if score @s kbt.rc_wiz matches 1 run function kbt:routes/setup/menu

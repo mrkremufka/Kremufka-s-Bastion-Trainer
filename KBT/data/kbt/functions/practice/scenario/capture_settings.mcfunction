@@ -3,6 +3,7 @@ execute store result storage kbt:general_practice settings.bastion int 1 run sco
 execute store result storage kbt:general_practice settings.gold int 1 run scoreboard players get #gold kbt.settings
 execute store result storage kbt:general_practice settings.floor int 1 run scoreboard players get #floor kbt.settings
 execute store result storage kbt:general_practice settings.hoglins int 1 run scoreboard players get #hoglins kbt.settings
+execute store result storage kbt:general_practice settings.piglins int 1 run scoreboard players get #piglins kbt.settings
 execute store result storage kbt:general_practice settings.blaze int 1 run scoreboard players get #blaze kbt.settings
 execute store result storage kbt:general_practice settings.bridge_left int 1 run scoreboard players get #bridge_left kbt.settings
 execute store result storage kbt:general_practice settings.bridge_right int 1 run scoreboard players get #bridge_right kbt.settings

@@ -30,4 +30,4 @@ execute store result score #arena_type kbt.settings run data get storage kbt:rou
 scoreboard players set #arena_ready kbt.settings 1
 scoreboard players set @s kbt.rc_wiz 0
 function kbt:routes/setup/prepare_editor
-tellraw @s [{"text":"Created editable copy, Custom ID ","color":"aqua"},{"nbt":"draft.id","storage":"kbt:routes","color":"gold"},{"text":". Save Route in the editor to add it to Custom.","color":"gray"}]
+tellraw @s [{"text":"Created editable copy, Custom ID ","color":"aqua"},{"nbt":"draft.id","storage":"kbt:routes","color":"gold"},{"text":" Save Route in the editor to add it to Custom","color":"gray"}]

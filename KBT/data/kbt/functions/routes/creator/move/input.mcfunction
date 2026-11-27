@@ -4,6 +4,6 @@ execute if score #mv_valid kbt.settings matches 1 if score @s kbt.rc_move matche
 execute if score #mv_valid kbt.settings matches 1 if score @s kbt.rc_move matches 10..13 run function kbt:routes/creator/move/step
 execute if score #mv_valid kbt.settings matches 1 if score @s kbt.rc_move matches 21 run function kbt:routes/creator/move/here
 execute if score @s kbt.rc_move matches 20 run data remove storage kbt:route_move session
-execute if score #mv_valid kbt.settings matches 0 unless score @s kbt.rc_move matches 20 run tellraw @s {"text":"Selection changed or editing is busy. Select the object with Move again.","color":"yellow"}
+execute if score #mv_valid kbt.settings matches 0 unless score @s kbt.rc_move matches 20 run tellraw @s {"text":"Selection changed or editing is busy Select the object with Move again","color":"yellow"}
 scoreboard players set @s kbt.rc_move 0
 scoreboard players enable @s kbt.rc_move

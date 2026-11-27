@@ -5,4 +5,4 @@ execute positioned ~-9 ~28 ~11 run function bastionbuilder:internal/place/mobs/p
 execute positioned ~-7 ~28 ~13 run function bastionbuilder:internal/place/mobs/piglin_melee
 execute positioned ~-6 ~29 ~11 run function bastionbuilder:internal/utils/chest_loot/mark_chest
 execute positioned ~-7 ~29 ~11 run function bastionbuilder:internal/utils/chest_loot/mark_chest
-execute if score id_piglins bastion.settings matches 1.. positioned ~-9 ~1 ~11 as @e[type=piglin, tag=bastion_mob, dx=6, dy=27, dz=4] run function kbt:debug/mark_origin/9
+execute if score id_piglins bastion.settings matches 1.. positioned ~-9 ~1 ~11 as @e[type=piglin, tag=bastion_mob, dx=6, dy=27, dz=4] run data modify entity @s CustomName set value '{"text":"ramparts/mid_wall_side","color":"yellow"}'

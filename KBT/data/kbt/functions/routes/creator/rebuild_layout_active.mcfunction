@@ -1,4 +1,4 @@
-tellraw @s {"text":"Rebuilding the saved route's bastion with current rampart settings. Random options can produce a different variant; route tasks and checkpoints are kept.","color":"yellow"}
+tellraw @s {"text":"Rebuilding the saved route's bastion with current rampart settings Random options can produce a different variant; route tasks and checkpoints are kept","color":"yellow"}
 execute store result score #rp_rebuild_type kbt.settings run data get storage kbt:route_runtime found.bastion
 execute in minecraft:the_nether run forceload add 936 936 1063 1063
 execute in minecraft:the_nether run tp @s 1000 200 1000 0 0

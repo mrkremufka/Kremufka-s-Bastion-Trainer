@@ -1,3 +1,5 @@
+scoreboard players set #rt_phase_summary kbt.settings 0
+scoreboard players set #ph_summary_new_pb kbt.settings 0
 scoreboard players set #rt_state kbt.settings 1
 scoreboard players set #rt_ticks kbt.settings 0
 scoreboard players set #rt_previous kbt.settings 0
@@ -12,4 +14,5 @@ function kbt:routes/identity/build
 data modify storage kbt:route_timer session.definition set from storage kbt:route_identity value
 data modify storage kbt:route_timer display.status set value "MOVE TO START"
 data modify storage kbt:route_timer display.status_separator set value ""
+execute if score #rp_no_time kbt.settings matches 1 run function kbt:routes/practice/gamemode_unrank
 function kbt:routes/timer/hud

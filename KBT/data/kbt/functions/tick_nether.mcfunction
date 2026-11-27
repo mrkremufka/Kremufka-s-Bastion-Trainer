@@ -9,3 +9,5 @@ function kbt:movement/specific/tick
 function kbt:movement/playlists/ui/tick
 function kbt:route_browser/test/tick
 function kbt:routes/tutorial/tick
+
+function kbt:pb_info/tick

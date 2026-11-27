@@ -11,4 +11,4 @@ scoreboard players enable @s kbt.cs_edit
 tag @s add kbt.cs_creator
 execute in minecraft:the_nether run forceload add 936 936 1063 1063
 schedule function kbt:practice/spawn/custom/create/generate 1t replace
-tellraw @s {"text":"Preparing your bastion for a custom spawnpoint...","color":"yellow"}
+tellraw @s {"text":"Preparing your bastion for a custom spawnpoint","color":"yellow"}

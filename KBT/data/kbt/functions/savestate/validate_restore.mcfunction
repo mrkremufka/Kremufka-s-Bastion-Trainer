@@ -11,5 +11,5 @@ data modify storage kbt:savestate compare set from storage kbt:savestate current
 execute if score #ss_mode kbt.settings matches 0 store success score #ss_diff kbt.settings run data modify storage kbt:savestate compare set from storage kbt:general_practice scenario
 execute if score #ss_mode kbt.settings matches 1 store success score #ss_diff kbt.settings run data modify storage kbt:savestate compare set from storage kbt:route_practice route
 execute if score #ss_diff kbt.settings matches 1 run scoreboard players set #ss_valid kbt.settings 0
-execute if score #ss_valid kbt.settings matches 0 run tellraw @s {"text":"No savestate for this training session. Drop an axe without Shift to save first.","color":"red"}
+execute if score #ss_valid kbt.settings matches 0 run tellraw @s {"text":"No savestate for this training session Drop an axe without Shift to save first","color":"red"}
 execute if score #ss_valid kbt.settings matches 1 run function kbt:savestate/restore

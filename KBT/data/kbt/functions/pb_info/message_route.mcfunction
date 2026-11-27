@@ -1,0 +1,1 @@
+tellraw @s [{"text":"Phase PB: ","color":"gold","bold":true},{"text":"Your best time for the last phase of this route You can skip directly to that phase and improve its PB without replaying the earlier phases","color":"yellow","bold":false}]

@@ -1,5 +1,7 @@
 scoreboard players set #ph_recorded kbt.settings 1
 function kbt:routes/practice/phase/stats/load
+data modify storage kbt:phase_stats completed set value {previous_best:2147483647}
+data modify storage kbt:phase_stats completed.previous_best set from storage kbt:phase_stats record.best
 execute store result storage kbt:phase_stats record.last int 1 run scoreboard players get #ph_ticks kbt.settings
 execute store result score #ph_best kbt.settings run data get storage kbt:phase_stats record.best
 execute if score #ph_ticks kbt.settings < #ph_best kbt.settings store result storage kbt:phase_stats record.best int 1 run scoreboard players get #ph_ticks kbt.settings

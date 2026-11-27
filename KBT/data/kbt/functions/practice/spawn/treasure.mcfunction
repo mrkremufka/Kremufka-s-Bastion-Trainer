@@ -9,4 +9,5 @@ execute if score #spawn_pick kbt.settings matches 3 run tp @a[tag=kbt.start_play
 execute if score #spawn_pick kbt.settings matches 4 run tp @a[tag=kbt.start_player] 1006.5 194 977.5
 execute if score #spawn_pick kbt.settings matches 5 run tp @a[tag=kbt.start_player] 1018.5 195 979.5
 execute if score #spawn_pick kbt.settings matches 6 run tp @a[tag=kbt.start_player] 1030.5 136 1019.5
+
 execute if score #run_floor kbt.settings matches 2 as @a[tag=kbt.start_player] at @s run function kbt:arena/buried/spawn_safe

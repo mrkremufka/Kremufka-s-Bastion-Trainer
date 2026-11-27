@@ -1,0 +1,10 @@
+execute if score #rsm_row kbt.settings matches 1 run scoreboard players operation #rsm_target kbt.settings = #rsm_slot_1 kbt.settings
+execute if score #rsm_row kbt.settings matches 2 run scoreboard players operation #rsm_target kbt.settings = #rsm_slot_2 kbt.settings
+execute if score #rsm_row kbt.settings matches 3 run scoreboard players operation #rsm_target kbt.settings = #rsm_slot_3 kbt.settings
+execute if score #rsm_row kbt.settings matches 4 run scoreboard players operation #rsm_target kbt.settings = #rsm_slot_4 kbt.settings
+execute if score #rsm_row kbt.settings matches 5 run scoreboard players operation #rsm_target kbt.settings = #rsm_slot_5 kbt.settings
+execute if score #rsm_row kbt.settings matches 6 run scoreboard players operation #rsm_target kbt.settings = #rsm_slot_6 kbt.settings
+execute if score #rsm_row kbt.settings matches 7 run scoreboard players operation #rsm_target kbt.settings = #rsm_slot_7 kbt.settings
+execute if score #rsm_row kbt.settings matches 8 run scoreboard players operation #rsm_target kbt.settings = #rsm_slot_8 kbt.settings
+execute if score #rsm_row kbt.settings matches 9 run scoreboard players operation #rsm_target kbt.settings = #rsm_slot_9 kbt.settings
+execute if score #rsm_row kbt.settings matches 10 run scoreboard players operation #rsm_target kbt.settings = #rsm_slot_10 kbt.settings

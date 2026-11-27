@@ -1,0 +1,10 @@
+execute if score treasure_lower bastion.temp matches 81 run function bastionbuilder:internal/place/treasure/lower/lower_80/rot_90
+execute if score treasure_lower bastion.temp matches 82 run function bastionbuilder:internal/place/treasure/lower/lower_81/rot_90
+execute if score treasure_lower bastion.temp matches 83 run function bastionbuilder:internal/place/treasure/lower/lower_82/rot_90
+execute if score treasure_lower bastion.temp matches 84 run function bastionbuilder:internal/place/treasure/lower/lower_83/rot_90
+execute if score treasure_lower bastion.temp matches 85 run function bastionbuilder:internal/place/treasure/lower/lower_84/rot_90
+execute if score treasure_lower bastion.temp matches 86 run function bastionbuilder:internal/place/treasure/lower/lower_85/rot_90
+execute if score treasure_lower bastion.temp matches 87 run function bastionbuilder:internal/place/treasure/lower/lower_86/rot_90
+execute if score treasure_lower bastion.temp matches 88 run function bastionbuilder:internal/place/treasure/lower/lower_87/rot_90
+execute if score treasure_lower bastion.temp matches 89 run function bastionbuilder:internal/place/treasure/lower/lower_88/rot_90
+execute if score treasure_lower bastion.temp matches 90 run function bastionbuilder:internal/place/treasure/lower/lower_89/rot_90

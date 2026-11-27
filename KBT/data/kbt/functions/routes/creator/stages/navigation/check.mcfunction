@@ -1,0 +1,2 @@
+scoreboard players set #rc_nav_allowed kbt.settings 0
+execute if score @s kbt.creator matches 1 if entity @s[nbt={Dimension:"minecraft:the_nether"},nbt=!{Health:0.0f}] if data storage kbt:routes draft.stage if data storage kbt:routes draft.stages[0] unless data storage kbt:route_text pending unless score #rp_job kbt.settings matches 1.. unless score #rc_generating kbt.settings matches 1 unless score #ki_busy kbt.settings matches 1 run scoreboard players set #rc_nav_allowed kbt.settings 1

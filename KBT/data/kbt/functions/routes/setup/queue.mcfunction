@@ -20,5 +20,5 @@ gamemode spectator @s
 execute unless entity @s[nbt={Dimension:"minecraft:the_nether"}] in minecraft:the_nether run tp @s 21 129 29 0 0
 execute in minecraft:the_nether run forceload add 936 936 1063 1063
 schedule function kbt:routes/setup/generate 1t replace
-tellraw @s {"text":"Preparing the chosen bastion for a new route...","color":"aqua"}
-title @s actionbar {"text":"Preparing | Loading arena chunks...","color":"aqua"}
+tellraw @s {"text":"Preparing the chosen bastion for a new route","color":"aqua"}
+title @s actionbar {"text":"Preparing | Loading arena chunks","color":"aqua"}

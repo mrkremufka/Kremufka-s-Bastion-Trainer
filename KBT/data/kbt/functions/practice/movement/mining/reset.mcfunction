@@ -1,114 +1,763 @@
-scoreboard players set @s kbt.mine065 0
-scoreboard players set @s kbt.mine498 0
-scoreboard players set @s kbt.mine150 0
-scoreboard players set @s kbt.mine268 0
-scoreboard players set @s kbt.mine272 0
-scoreboard players set @s kbt.mine436 0
-scoreboard players set @s kbt.mine031 0
-scoreboard players set @s kbt.mine493 0
-scoreboard players set @s kbt.mine496 0
-scoreboard players set @s kbt.mine067 0
-scoreboard players set @s kbt.mine066 0
-scoreboard players set @s kbt.mine068 0
-scoreboard players set @s kbt.mine127 0
-scoreboard players set @s kbt.mine124 0
-scoreboard players set @s kbt.mine639 0
-scoreboard players set @s kbt.mine410 0
-scoreboard players set @s kbt.mine271 0
-scoreboard players set @s kbt.mine122 0
-scoreboard players set @s kbt.mine349 0
-scoreboard players set @s kbt.mine428 0
-scoreboard players set @s kbt.mine424 0
-scoreboard players set @s kbt.mine433 0
-scoreboard players set @s kbt.mine567 0
-scoreboard players set @s kbt.mine623 0
-scoreboard players set @s kbt.mine624 0
-scoreboard players set @s kbt.mine643 0
-scoreboard players set @s kbt.mine494 0
-scoreboard players set @s kbt.mine502 0
-scoreboard players set @s kbt.mine501 0
-scoreboard players set @s kbt.mine503 0
-scoreboard players set @s kbt.mine495 0
-scoreboard players set @s kbt.mine497 0
-scoreboard players set @s kbt.mine454 0
-scoreboard players set @s kbt.mine171 0
-scoreboard players set @s kbt.mine640 0
-scoreboard players set @s kbt.mine281 0
-scoreboard players set @s kbt.mine429 0
-scoreboard players set @s kbt.mine431 0
-scoreboard players set @s kbt.mine018 0
-scoreboard players set @s kbt.mine135 0
-scoreboard players set @s kbt.mine605 0
-scoreboard players set @s kbt.mine616 0
-scoreboard players set @s kbt.mine638 0
-scoreboard players set @s kbt.mine426 0
-scoreboard players set @s kbt.mine425 0
-scoreboard players set @s kbt.mine427 0
-scoreboard players set @s kbt.mine149 0
-scoreboard players set @s kbt.mine126 0
-scoreboard players set @s kbt.mine584 0
-scoreboard players set @s kbt.mine434 0
-scoreboard players set @s kbt.mine727 0
-scoreboard players set @s kbt.mine161 0
-scoreboard players set @s kbt.mine717 0
-scoreboard players set @s kbt.mine168 0
-scoreboard players set @s kbt.mine724 0
-scoreboard players set @s kbt.mine162 0
-scoreboard players set @s kbt.mine718 0
-scoreboard players set @s kbt.mine729 0
-scoreboard players set @s kbt.mine730 0
-scoreboard players set @s kbt.mine706 0
-scoreboard players set @s kbt.mine707 0
-scoreboard players set @s kbt.mine084 0
-scoreboard players set @s kbt.mine164 0
-scoreboard players set @s kbt.mine720 0
-scoreboard players set @s kbt.mine159 0
-scoreboard players set @s kbt.mine715 0
-scoreboard players set @s kbt.mine138 0
-scoreboard players set @s kbt.mine661 0
-scoreboard players set @s kbt.mine237 0
-scoreboard players set @s kbt.mine279 0
-scoreboard players set @s kbt.mine607 0
-scoreboard players set @s kbt.mine269 0
-scoreboard players set @s kbt.mine323 0
-scoreboard players set @s kbt.mine152 0
-scoreboard players set @s kbt.mine267 0
-scoreboard players set @s kbt.mine697 0
-scoreboard players set @s kbt.mine710 0
-scoreboard players set @s kbt.mine641 0
-scoreboard players set @s kbt.mine642 0
-scoreboard players set @s kbt.mine444 0
-scoreboard players set @s kbt.mine651 0
-scoreboard players set @s kbt.mine044 0
-scoreboard players set @s kbt.mine196 0
-scoreboard players set @s kbt.mine337 0
-scoreboard players set @s kbt.mine006 0
-scoreboard players set @s kbt.mine443 0
-scoreboard players set @s kbt.mine650 0
-scoreboard players set @s kbt.mine043 0
-scoreboard players set @s kbt.mine442 0
-scoreboard players set @s kbt.mine448 0
-scoreboard players set @s kbt.mine449 0
-scoreboard players set @s kbt.mine439 0
-scoreboard players set @s kbt.mine450 0
-scoreboard players set @s kbt.mine745 0
-scoreboard players set @s kbt.mine596 0
-scoreboard players set @s kbt.mine760 0
-scoreboard players set @s kbt.mine083 0
-scoreboard players set @s kbt.mine305 0
-scoreboard players set @s kbt.mine064 0
-scoreboard players set @s kbt.mine734 0
-scoreboard players set @s kbt.mine574 0
-scoreboard players set @s kbt.mine750 0
-scoreboard players set @s kbt.mine385 0
-scoreboard players set @s kbt.mine177 0
-scoreboard players set @s kbt.mine357 0
-scoreboard players set @s kbt.mine612 0
-scoreboard players set @s kbt.mine348 0
-scoreboard players set @s kbt.mine307 0
-scoreboard players set @s kbt.mine696 0
-scoreboard players set @s kbt.mine324 0
-scoreboard players set @s kbt.mine698 0
-scoreboard players set @s kbt.mine029 0
-scoreboard players set @s kbt.mine694 0
-scoreboard players set @s kbt.mine037 0
+scoreboard players reset @s kbt.mine000
+scoreboard players reset @s kbt.mine001
+scoreboard players reset @s kbt.mine002
+scoreboard players reset @s kbt.mine003
+scoreboard players reset @s kbt.mine004
+scoreboard players reset @s kbt.mine005
+scoreboard players reset @s kbt.mine006
+scoreboard players reset @s kbt.mine007
+scoreboard players reset @s kbt.mine008
+scoreboard players reset @s kbt.mine009
+scoreboard players reset @s kbt.mine010
+scoreboard players reset @s kbt.mine011
+scoreboard players reset @s kbt.mine012
+scoreboard players reset @s kbt.mine013
+scoreboard players reset @s kbt.mine014
+scoreboard players reset @s kbt.mine015
+scoreboard players reset @s kbt.mine016
+scoreboard players reset @s kbt.mine017
+scoreboard players reset @s kbt.mine018
+scoreboard players reset @s kbt.mine019
+scoreboard players reset @s kbt.mine020
+scoreboard players reset @s kbt.mine021
+scoreboard players reset @s kbt.mine022
+scoreboard players reset @s kbt.mine023
+scoreboard players reset @s kbt.mine024
+scoreboard players reset @s kbt.mine025
+scoreboard players reset @s kbt.mine026
+scoreboard players reset @s kbt.mine027
+scoreboard players reset @s kbt.mine028
+scoreboard players reset @s kbt.mine029
+scoreboard players reset @s kbt.mine030
+scoreboard players reset @s kbt.mine031
+scoreboard players reset @s kbt.mine032
+scoreboard players reset @s kbt.mine033
+scoreboard players reset @s kbt.mine034
+scoreboard players reset @s kbt.mine035
+scoreboard players reset @s kbt.mine036
+scoreboard players reset @s kbt.mine037
+scoreboard players reset @s kbt.mine038
+scoreboard players reset @s kbt.mine039
+scoreboard players reset @s kbt.mine040
+scoreboard players reset @s kbt.mine041
+scoreboard players reset @s kbt.mine042
+scoreboard players reset @s kbt.mine043
+scoreboard players reset @s kbt.mine044
+scoreboard players reset @s kbt.mine045
+scoreboard players reset @s kbt.mine046
+scoreboard players reset @s kbt.mine047
+scoreboard players reset @s kbt.mine048
+scoreboard players reset @s kbt.mine049
+scoreboard players reset @s kbt.mine050
+scoreboard players reset @s kbt.mine051
+scoreboard players reset @s kbt.mine052
+scoreboard players reset @s kbt.mine053
+scoreboard players reset @s kbt.mine054
+scoreboard players reset @s kbt.mine055
+scoreboard players reset @s kbt.mine056
+scoreboard players reset @s kbt.mine057
+scoreboard players reset @s kbt.mine058
+scoreboard players reset @s kbt.mine059
+scoreboard players reset @s kbt.mine060
+scoreboard players reset @s kbt.mine061
+scoreboard players reset @s kbt.mine062
+scoreboard players reset @s kbt.mine063
+scoreboard players reset @s kbt.mine064
+scoreboard players reset @s kbt.mine065
+scoreboard players reset @s kbt.mine066
+scoreboard players reset @s kbt.mine067
+scoreboard players reset @s kbt.mine068
+scoreboard players reset @s kbt.mine069
+scoreboard players reset @s kbt.mine070
+scoreboard players reset @s kbt.mine071
+scoreboard players reset @s kbt.mine072
+scoreboard players reset @s kbt.mine073
+scoreboard players reset @s kbt.mine074
+scoreboard players reset @s kbt.mine075
+scoreboard players reset @s kbt.mine076
+scoreboard players reset @s kbt.mine077
+scoreboard players reset @s kbt.mine078
+scoreboard players reset @s kbt.mine079
+scoreboard players reset @s kbt.mine080
+scoreboard players reset @s kbt.mine081
+scoreboard players reset @s kbt.mine082
+scoreboard players reset @s kbt.mine083
+scoreboard players reset @s kbt.mine084
+scoreboard players reset @s kbt.mine085
+scoreboard players reset @s kbt.mine086
+scoreboard players reset @s kbt.mine087
+scoreboard players reset @s kbt.mine088
+scoreboard players reset @s kbt.mine089
+scoreboard players reset @s kbt.mine090
+scoreboard players reset @s kbt.mine091
+scoreboard players reset @s kbt.mine092
+scoreboard players reset @s kbt.mine093
+scoreboard players reset @s kbt.mine094
+scoreboard players reset @s kbt.mine095
+scoreboard players reset @s kbt.mine096
+scoreboard players reset @s kbt.mine097
+scoreboard players reset @s kbt.mine098
+scoreboard players reset @s kbt.mine099
+scoreboard players reset @s kbt.mine100
+scoreboard players reset @s kbt.mine101
+scoreboard players reset @s kbt.mine102
+scoreboard players reset @s kbt.mine103
+scoreboard players reset @s kbt.mine104
+scoreboard players reset @s kbt.mine105
+scoreboard players reset @s kbt.mine106
+scoreboard players reset @s kbt.mine107
+scoreboard players reset @s kbt.mine108
+scoreboard players reset @s kbt.mine109
+scoreboard players reset @s kbt.mine110
+scoreboard players reset @s kbt.mine111
+scoreboard players reset @s kbt.mine112
+scoreboard players reset @s kbt.mine113
+scoreboard players reset @s kbt.mine114
+scoreboard players reset @s kbt.mine115
+scoreboard players reset @s kbt.mine116
+scoreboard players reset @s kbt.mine117
+scoreboard players reset @s kbt.mine118
+scoreboard players reset @s kbt.mine119
+scoreboard players reset @s kbt.mine120
+scoreboard players reset @s kbt.mine121
+scoreboard players reset @s kbt.mine122
+scoreboard players reset @s kbt.mine123
+scoreboard players reset @s kbt.mine124
+scoreboard players reset @s kbt.mine125
+scoreboard players reset @s kbt.mine126
+scoreboard players reset @s kbt.mine127
+scoreboard players reset @s kbt.mine128
+scoreboard players reset @s kbt.mine129
+scoreboard players reset @s kbt.mine130
+scoreboard players reset @s kbt.mine131
+scoreboard players reset @s kbt.mine132
+scoreboard players reset @s kbt.mine133
+scoreboard players reset @s kbt.mine134
+scoreboard players reset @s kbt.mine135
+scoreboard players reset @s kbt.mine136
+scoreboard players reset @s kbt.mine137
+scoreboard players reset @s kbt.mine138
+scoreboard players reset @s kbt.mine139
+scoreboard players reset @s kbt.mine140
+scoreboard players reset @s kbt.mine141
+scoreboard players reset @s kbt.mine142
+scoreboard players reset @s kbt.mine143
+scoreboard players reset @s kbt.mine144
+scoreboard players reset @s kbt.mine145
+scoreboard players reset @s kbt.mine146
+scoreboard players reset @s kbt.mine147
+scoreboard players reset @s kbt.mine148
+scoreboard players reset @s kbt.mine149
+scoreboard players reset @s kbt.mine150
+scoreboard players reset @s kbt.mine151
+scoreboard players reset @s kbt.mine152
+scoreboard players reset @s kbt.mine153
+scoreboard players reset @s kbt.mine154
+scoreboard players reset @s kbt.mine155
+scoreboard players reset @s kbt.mine156
+scoreboard players reset @s kbt.mine157
+scoreboard players reset @s kbt.mine158
+scoreboard players reset @s kbt.mine159
+scoreboard players reset @s kbt.mine160
+scoreboard players reset @s kbt.mine161
+scoreboard players reset @s kbt.mine162
+scoreboard players reset @s kbt.mine163
+scoreboard players reset @s kbt.mine164
+scoreboard players reset @s kbt.mine165
+scoreboard players reset @s kbt.mine166
+scoreboard players reset @s kbt.mine167
+scoreboard players reset @s kbt.mine168
+scoreboard players reset @s kbt.mine169
+scoreboard players reset @s kbt.mine170
+scoreboard players reset @s kbt.mine171
+scoreboard players reset @s kbt.mine172
+scoreboard players reset @s kbt.mine173
+scoreboard players reset @s kbt.mine174
+scoreboard players reset @s kbt.mine175
+scoreboard players reset @s kbt.mine176
+scoreboard players reset @s kbt.mine177
+scoreboard players reset @s kbt.mine178
+scoreboard players reset @s kbt.mine179
+scoreboard players reset @s kbt.mine180
+scoreboard players reset @s kbt.mine181
+scoreboard players reset @s kbt.mine182
+scoreboard players reset @s kbt.mine183
+scoreboard players reset @s kbt.mine184
+scoreboard players reset @s kbt.mine185
+scoreboard players reset @s kbt.mine186
+scoreboard players reset @s kbt.mine187
+scoreboard players reset @s kbt.mine188
+scoreboard players reset @s kbt.mine189
+scoreboard players reset @s kbt.mine190
+scoreboard players reset @s kbt.mine191
+scoreboard players reset @s kbt.mine192
+scoreboard players reset @s kbt.mine193
+scoreboard players reset @s kbt.mine194
+scoreboard players reset @s kbt.mine195
+scoreboard players reset @s kbt.mine196
+scoreboard players reset @s kbt.mine197
+scoreboard players reset @s kbt.mine198
+scoreboard players reset @s kbt.mine199
+scoreboard players reset @s kbt.mine200
+scoreboard players reset @s kbt.mine201
+scoreboard players reset @s kbt.mine202
+scoreboard players reset @s kbt.mine203
+scoreboard players reset @s kbt.mine204
+scoreboard players reset @s kbt.mine205
+scoreboard players reset @s kbt.mine206
+scoreboard players reset @s kbt.mine207
+scoreboard players reset @s kbt.mine208
+scoreboard players reset @s kbt.mine209
+scoreboard players reset @s kbt.mine210
+scoreboard players reset @s kbt.mine211
+scoreboard players reset @s kbt.mine212
+scoreboard players reset @s kbt.mine213
+scoreboard players reset @s kbt.mine214
+scoreboard players reset @s kbt.mine215
+scoreboard players reset @s kbt.mine216
+scoreboard players reset @s kbt.mine217
+scoreboard players reset @s kbt.mine218
+scoreboard players reset @s kbt.mine219
+scoreboard players reset @s kbt.mine220
+scoreboard players reset @s kbt.mine221
+scoreboard players reset @s kbt.mine222
+scoreboard players reset @s kbt.mine223
+scoreboard players reset @s kbt.mine224
+scoreboard players reset @s kbt.mine225
+scoreboard players reset @s kbt.mine226
+scoreboard players reset @s kbt.mine227
+scoreboard players reset @s kbt.mine228
+scoreboard players reset @s kbt.mine229
+scoreboard players reset @s kbt.mine230
+scoreboard players reset @s kbt.mine231
+scoreboard players reset @s kbt.mine232
+scoreboard players reset @s kbt.mine233
+scoreboard players reset @s kbt.mine234
+scoreboard players reset @s kbt.mine235
+scoreboard players reset @s kbt.mine236
+scoreboard players reset @s kbt.mine237
+scoreboard players reset @s kbt.mine238
+scoreboard players reset @s kbt.mine239
+scoreboard players reset @s kbt.mine240
+scoreboard players reset @s kbt.mine241
+scoreboard players reset @s kbt.mine242
+scoreboard players reset @s kbt.mine243
+scoreboard players reset @s kbt.mine244
+scoreboard players reset @s kbt.mine245
+scoreboard players reset @s kbt.mine246
+scoreboard players reset @s kbt.mine247
+scoreboard players reset @s kbt.mine248
+scoreboard players reset @s kbt.mine249
+scoreboard players reset @s kbt.mine250
+scoreboard players reset @s kbt.mine251
+scoreboard players reset @s kbt.mine252
+scoreboard players reset @s kbt.mine253
+scoreboard players reset @s kbt.mine254
+scoreboard players reset @s kbt.mine255
+scoreboard players reset @s kbt.mine256
+scoreboard players reset @s kbt.mine257
+scoreboard players reset @s kbt.mine258
+scoreboard players reset @s kbt.mine259
+scoreboard players reset @s kbt.mine260
+scoreboard players reset @s kbt.mine261
+scoreboard players reset @s kbt.mine262
+scoreboard players reset @s kbt.mine263
+scoreboard players reset @s kbt.mine264
+scoreboard players reset @s kbt.mine265
+scoreboard players reset @s kbt.mine266
+scoreboard players reset @s kbt.mine267
+scoreboard players reset @s kbt.mine268
+scoreboard players reset @s kbt.mine269
+scoreboard players reset @s kbt.mine270
+scoreboard players reset @s kbt.mine271
+scoreboard players reset @s kbt.mine272
+scoreboard players reset @s kbt.mine273
+scoreboard players reset @s kbt.mine274
+scoreboard players reset @s kbt.mine275
+scoreboard players reset @s kbt.mine276
+scoreboard players reset @s kbt.mine277
+scoreboard players reset @s kbt.mine278
+scoreboard players reset @s kbt.mine279
+scoreboard players reset @s kbt.mine280
+scoreboard players reset @s kbt.mine281
+scoreboard players reset @s kbt.mine282
+scoreboard players reset @s kbt.mine283
+scoreboard players reset @s kbt.mine284
+scoreboard players reset @s kbt.mine285
+scoreboard players reset @s kbt.mine286
+scoreboard players reset @s kbt.mine287
+scoreboard players reset @s kbt.mine288
+scoreboard players reset @s kbt.mine289
+scoreboard players reset @s kbt.mine290
+scoreboard players reset @s kbt.mine291
+scoreboard players reset @s kbt.mine292
+scoreboard players reset @s kbt.mine293
+scoreboard players reset @s kbt.mine294
+scoreboard players reset @s kbt.mine295
+scoreboard players reset @s kbt.mine296
+scoreboard players reset @s kbt.mine297
+scoreboard players reset @s kbt.mine298
+scoreboard players reset @s kbt.mine299
+scoreboard players reset @s kbt.mine300
+scoreboard players reset @s kbt.mine301
+scoreboard players reset @s kbt.mine302
+scoreboard players reset @s kbt.mine303
+scoreboard players reset @s kbt.mine304
+scoreboard players reset @s kbt.mine305
+scoreboard players reset @s kbt.mine306
+scoreboard players reset @s kbt.mine307
+scoreboard players reset @s kbt.mine308
+scoreboard players reset @s kbt.mine309
+scoreboard players reset @s kbt.mine310
+scoreboard players reset @s kbt.mine311
+scoreboard players reset @s kbt.mine312
+scoreboard players reset @s kbt.mine313
+scoreboard players reset @s kbt.mine314
+scoreboard players reset @s kbt.mine315
+scoreboard players reset @s kbt.mine316
+scoreboard players reset @s kbt.mine317
+scoreboard players reset @s kbt.mine318
+scoreboard players reset @s kbt.mine319
+scoreboard players reset @s kbt.mine320
+scoreboard players reset @s kbt.mine321
+scoreboard players reset @s kbt.mine322
+scoreboard players reset @s kbt.mine323
+scoreboard players reset @s kbt.mine324
+scoreboard players reset @s kbt.mine325
+scoreboard players reset @s kbt.mine326
+scoreboard players reset @s kbt.mine327
+scoreboard players reset @s kbt.mine328
+scoreboard players reset @s kbt.mine329
+scoreboard players reset @s kbt.mine330
+scoreboard players reset @s kbt.mine331
+scoreboard players reset @s kbt.mine332
+scoreboard players reset @s kbt.mine333
+scoreboard players reset @s kbt.mine334
+scoreboard players reset @s kbt.mine335
+scoreboard players reset @s kbt.mine336
+scoreboard players reset @s kbt.mine337
+scoreboard players reset @s kbt.mine338
+scoreboard players reset @s kbt.mine339
+scoreboard players reset @s kbt.mine340
+scoreboard players reset @s kbt.mine341
+scoreboard players reset @s kbt.mine342
+scoreboard players reset @s kbt.mine343
+scoreboard players reset @s kbt.mine344
+scoreboard players reset @s kbt.mine345
+scoreboard players reset @s kbt.mine346
+scoreboard players reset @s kbt.mine347
+scoreboard players reset @s kbt.mine348
+scoreboard players reset @s kbt.mine349
+scoreboard players reset @s kbt.mine350
+scoreboard players reset @s kbt.mine351
+scoreboard players reset @s kbt.mine352
+scoreboard players reset @s kbt.mine353
+scoreboard players reset @s kbt.mine354
+scoreboard players reset @s kbt.mine355
+scoreboard players reset @s kbt.mine356
+scoreboard players reset @s kbt.mine357
+scoreboard players reset @s kbt.mine358
+scoreboard players reset @s kbt.mine359
+scoreboard players reset @s kbt.mine360
+scoreboard players reset @s kbt.mine361
+scoreboard players reset @s kbt.mine362
+scoreboard players reset @s kbt.mine363
+scoreboard players reset @s kbt.mine364
+scoreboard players reset @s kbt.mine365
+scoreboard players reset @s kbt.mine366
+scoreboard players reset @s kbt.mine367
+scoreboard players reset @s kbt.mine368
+scoreboard players reset @s kbt.mine369
+scoreboard players reset @s kbt.mine370
+scoreboard players reset @s kbt.mine371
+scoreboard players reset @s kbt.mine372
+scoreboard players reset @s kbt.mine373
+scoreboard players reset @s kbt.mine374
+scoreboard players reset @s kbt.mine375
+scoreboard players reset @s kbt.mine376
+scoreboard players reset @s kbt.mine377
+scoreboard players reset @s kbt.mine378
+scoreboard players reset @s kbt.mine379
+scoreboard players reset @s kbt.mine380
+scoreboard players reset @s kbt.mine381
+scoreboard players reset @s kbt.mine382
+scoreboard players reset @s kbt.mine383
+scoreboard players reset @s kbt.mine384
+scoreboard players reset @s kbt.mine385
+scoreboard players reset @s kbt.mine386
+scoreboard players reset @s kbt.mine387
+scoreboard players reset @s kbt.mine388
+scoreboard players reset @s kbt.mine389
+scoreboard players reset @s kbt.mine390
+scoreboard players reset @s kbt.mine391
+scoreboard players reset @s kbt.mine392
+scoreboard players reset @s kbt.mine393
+scoreboard players reset @s kbt.mine394
+scoreboard players reset @s kbt.mine395
+scoreboard players reset @s kbt.mine396
+scoreboard players reset @s kbt.mine397
+scoreboard players reset @s kbt.mine398
+scoreboard players reset @s kbt.mine399
+scoreboard players reset @s kbt.mine400
+scoreboard players reset @s kbt.mine401
+scoreboard players reset @s kbt.mine402
+scoreboard players reset @s kbt.mine403
+scoreboard players reset @s kbt.mine404
+scoreboard players reset @s kbt.mine405
+scoreboard players reset @s kbt.mine406
+scoreboard players reset @s kbt.mine407
+scoreboard players reset @s kbt.mine408
+scoreboard players reset @s kbt.mine409
+scoreboard players reset @s kbt.mine410
+scoreboard players reset @s kbt.mine411
+scoreboard players reset @s kbt.mine412
+scoreboard players reset @s kbt.mine413
+scoreboard players reset @s kbt.mine414
+scoreboard players reset @s kbt.mine415
+scoreboard players reset @s kbt.mine416
+scoreboard players reset @s kbt.mine417
+scoreboard players reset @s kbt.mine418
+scoreboard players reset @s kbt.mine419
+scoreboard players reset @s kbt.mine420
+scoreboard players reset @s kbt.mine421
+scoreboard players reset @s kbt.mine422
+scoreboard players reset @s kbt.mine423
+scoreboard players reset @s kbt.mine424
+scoreboard players reset @s kbt.mine425
+scoreboard players reset @s kbt.mine426
+scoreboard players reset @s kbt.mine427
+scoreboard players reset @s kbt.mine428
+scoreboard players reset @s kbt.mine429
+scoreboard players reset @s kbt.mine430
+scoreboard players reset @s kbt.mine431
+scoreboard players reset @s kbt.mine432
+scoreboard players reset @s kbt.mine433
+scoreboard players reset @s kbt.mine434
+scoreboard players reset @s kbt.mine435
+scoreboard players reset @s kbt.mine436
+scoreboard players reset @s kbt.mine437
+scoreboard players reset @s kbt.mine438
+scoreboard players reset @s kbt.mine439
+scoreboard players reset @s kbt.mine440
+scoreboard players reset @s kbt.mine441
+scoreboard players reset @s kbt.mine442
+scoreboard players reset @s kbt.mine443
+scoreboard players reset @s kbt.mine444
+scoreboard players reset @s kbt.mine445
+scoreboard players reset @s kbt.mine446
+scoreboard players reset @s kbt.mine447
+scoreboard players reset @s kbt.mine448
+scoreboard players reset @s kbt.mine449
+scoreboard players reset @s kbt.mine450
+scoreboard players reset @s kbt.mine451
+scoreboard players reset @s kbt.mine452
+scoreboard players reset @s kbt.mine453
+scoreboard players reset @s kbt.mine454
+scoreboard players reset @s kbt.mine455
+scoreboard players reset @s kbt.mine456
+scoreboard players reset @s kbt.mine457
+scoreboard players reset @s kbt.mine458
+scoreboard players reset @s kbt.mine459
+scoreboard players reset @s kbt.mine460
+scoreboard players reset @s kbt.mine461
+scoreboard players reset @s kbt.mine462
+scoreboard players reset @s kbt.mine463
+scoreboard players reset @s kbt.mine464
+scoreboard players reset @s kbt.mine465
+scoreboard players reset @s kbt.mine466
+scoreboard players reset @s kbt.mine467
+scoreboard players reset @s kbt.mine468
+scoreboard players reset @s kbt.mine469
+scoreboard players reset @s kbt.mine470
+scoreboard players reset @s kbt.mine471
+scoreboard players reset @s kbt.mine472
+scoreboard players reset @s kbt.mine473
+scoreboard players reset @s kbt.mine474
+scoreboard players reset @s kbt.mine475
+scoreboard players reset @s kbt.mine476
+scoreboard players reset @s kbt.mine477
+scoreboard players reset @s kbt.mine478
+scoreboard players reset @s kbt.mine479
+scoreboard players reset @s kbt.mine480
+scoreboard players reset @s kbt.mine481
+scoreboard players reset @s kbt.mine482
+scoreboard players reset @s kbt.mine483
+scoreboard players reset @s kbt.mine484
+scoreboard players reset @s kbt.mine485
+scoreboard players reset @s kbt.mine486
+scoreboard players reset @s kbt.mine487
+scoreboard players reset @s kbt.mine488
+scoreboard players reset @s kbt.mine489
+scoreboard players reset @s kbt.mine490
+scoreboard players reset @s kbt.mine491
+scoreboard players reset @s kbt.mine492
+scoreboard players reset @s kbt.mine493
+scoreboard players reset @s kbt.mine494
+scoreboard players reset @s kbt.mine495
+scoreboard players reset @s kbt.mine496
+scoreboard players reset @s kbt.mine497
+scoreboard players reset @s kbt.mine498
+scoreboard players reset @s kbt.mine499
+scoreboard players reset @s kbt.mine500
+scoreboard players reset @s kbt.mine501
+scoreboard players reset @s kbt.mine502
+scoreboard players reset @s kbt.mine503
+scoreboard players reset @s kbt.mine504
+scoreboard players reset @s kbt.mine505
+scoreboard players reset @s kbt.mine506
+scoreboard players reset @s kbt.mine507
+scoreboard players reset @s kbt.mine508
+scoreboard players reset @s kbt.mine509
+scoreboard players reset @s kbt.mine510
+scoreboard players reset @s kbt.mine511
+scoreboard players reset @s kbt.mine512
+scoreboard players reset @s kbt.mine513
+scoreboard players reset @s kbt.mine514
+scoreboard players reset @s kbt.mine515
+scoreboard players reset @s kbt.mine516
+scoreboard players reset @s kbt.mine517
+scoreboard players reset @s kbt.mine518
+scoreboard players reset @s kbt.mine519
+scoreboard players reset @s kbt.mine520
+scoreboard players reset @s kbt.mine521
+scoreboard players reset @s kbt.mine522
+scoreboard players reset @s kbt.mine523
+scoreboard players reset @s kbt.mine524
+scoreboard players reset @s kbt.mine525
+scoreboard players reset @s kbt.mine526
+scoreboard players reset @s kbt.mine527
+scoreboard players reset @s kbt.mine528
+scoreboard players reset @s kbt.mine529
+scoreboard players reset @s kbt.mine530
+scoreboard players reset @s kbt.mine531
+scoreboard players reset @s kbt.mine532
+scoreboard players reset @s kbt.mine533
+scoreboard players reset @s kbt.mine534
+scoreboard players reset @s kbt.mine535
+scoreboard players reset @s kbt.mine536
+scoreboard players reset @s kbt.mine537
+scoreboard players reset @s kbt.mine538
+scoreboard players reset @s kbt.mine539
+scoreboard players reset @s kbt.mine540
+scoreboard players reset @s kbt.mine541
+scoreboard players reset @s kbt.mine542
+scoreboard players reset @s kbt.mine543
+scoreboard players reset @s kbt.mine544
+scoreboard players reset @s kbt.mine545
+scoreboard players reset @s kbt.mine546
+scoreboard players reset @s kbt.mine547
+scoreboard players reset @s kbt.mine548
+scoreboard players reset @s kbt.mine549
+scoreboard players reset @s kbt.mine550
+scoreboard players reset @s kbt.mine551
+scoreboard players reset @s kbt.mine552
+scoreboard players reset @s kbt.mine553
+scoreboard players reset @s kbt.mine554
+scoreboard players reset @s kbt.mine555
+scoreboard players reset @s kbt.mine556
+scoreboard players reset @s kbt.mine557
+scoreboard players reset @s kbt.mine558
+scoreboard players reset @s kbt.mine559
+scoreboard players reset @s kbt.mine560
+scoreboard players reset @s kbt.mine561
+scoreboard players reset @s kbt.mine562
+scoreboard players reset @s kbt.mine563
+scoreboard players reset @s kbt.mine564
+scoreboard players reset @s kbt.mine565
+scoreboard players reset @s kbt.mine566
+scoreboard players reset @s kbt.mine567
+scoreboard players reset @s kbt.mine568
+scoreboard players reset @s kbt.mine569
+scoreboard players reset @s kbt.mine570
+scoreboard players reset @s kbt.mine571
+scoreboard players reset @s kbt.mine572
+scoreboard players reset @s kbt.mine573
+scoreboard players reset @s kbt.mine574
+scoreboard players reset @s kbt.mine575
+scoreboard players reset @s kbt.mine576
+scoreboard players reset @s kbt.mine577
+scoreboard players reset @s kbt.mine578
+scoreboard players reset @s kbt.mine579
+scoreboard players reset @s kbt.mine580
+scoreboard players reset @s kbt.mine581
+scoreboard players reset @s kbt.mine582
+scoreboard players reset @s kbt.mine583
+scoreboard players reset @s kbt.mine584
+scoreboard players reset @s kbt.mine585
+scoreboard players reset @s kbt.mine586
+scoreboard players reset @s kbt.mine587
+scoreboard players reset @s kbt.mine588
+scoreboard players reset @s kbt.mine589
+scoreboard players reset @s kbt.mine590
+scoreboard players reset @s kbt.mine591
+scoreboard players reset @s kbt.mine592
+scoreboard players reset @s kbt.mine593
+scoreboard players reset @s kbt.mine594
+scoreboard players reset @s kbt.mine595
+scoreboard players reset @s kbt.mine596
+scoreboard players reset @s kbt.mine597
+scoreboard players reset @s kbt.mine598
+scoreboard players reset @s kbt.mine599
+scoreboard players reset @s kbt.mine600
+scoreboard players reset @s kbt.mine601
+scoreboard players reset @s kbt.mine602
+scoreboard players reset @s kbt.mine603
+scoreboard players reset @s kbt.mine604
+scoreboard players reset @s kbt.mine605
+scoreboard players reset @s kbt.mine606
+scoreboard players reset @s kbt.mine607
+scoreboard players reset @s kbt.mine608
+scoreboard players reset @s kbt.mine609
+scoreboard players reset @s kbt.mine610
+scoreboard players reset @s kbt.mine611
+scoreboard players reset @s kbt.mine612
+scoreboard players reset @s kbt.mine613
+scoreboard players reset @s kbt.mine614
+scoreboard players reset @s kbt.mine615
+scoreboard players reset @s kbt.mine616
+scoreboard players reset @s kbt.mine617
+scoreboard players reset @s kbt.mine618
+scoreboard players reset @s kbt.mine619
+scoreboard players reset @s kbt.mine620
+scoreboard players reset @s kbt.mine621
+scoreboard players reset @s kbt.mine622
+scoreboard players reset @s kbt.mine623
+scoreboard players reset @s kbt.mine624
+scoreboard players reset @s kbt.mine625
+scoreboard players reset @s kbt.mine626
+scoreboard players reset @s kbt.mine627
+scoreboard players reset @s kbt.mine628
+scoreboard players reset @s kbt.mine629
+scoreboard players reset @s kbt.mine630
+scoreboard players reset @s kbt.mine631
+scoreboard players reset @s kbt.mine632
+scoreboard players reset @s kbt.mine633
+scoreboard players reset @s kbt.mine634
+scoreboard players reset @s kbt.mine635
+scoreboard players reset @s kbt.mine636
+scoreboard players reset @s kbt.mine637
+scoreboard players reset @s kbt.mine638
+scoreboard players reset @s kbt.mine639
+scoreboard players reset @s kbt.mine640
+scoreboard players reset @s kbt.mine641
+scoreboard players reset @s kbt.mine642
+scoreboard players reset @s kbt.mine643
+scoreboard players reset @s kbt.mine644
+scoreboard players reset @s kbt.mine645
+scoreboard players reset @s kbt.mine646
+scoreboard players reset @s kbt.mine647
+scoreboard players reset @s kbt.mine648
+scoreboard players reset @s kbt.mine649
+scoreboard players reset @s kbt.mine650
+scoreboard players reset @s kbt.mine651
+scoreboard players reset @s kbt.mine652
+scoreboard players reset @s kbt.mine653
+scoreboard players reset @s kbt.mine654
+scoreboard players reset @s kbt.mine655
+scoreboard players reset @s kbt.mine656
+scoreboard players reset @s kbt.mine657
+scoreboard players reset @s kbt.mine658
+scoreboard players reset @s kbt.mine659
+scoreboard players reset @s kbt.mine660
+scoreboard players reset @s kbt.mine661
+scoreboard players reset @s kbt.mine662
+scoreboard players reset @s kbt.mine663
+scoreboard players reset @s kbt.mine664
+scoreboard players reset @s kbt.mine665
+scoreboard players reset @s kbt.mine666
+scoreboard players reset @s kbt.mine667
+scoreboard players reset @s kbt.mine668
+scoreboard players reset @s kbt.mine669
+scoreboard players reset @s kbt.mine670
+scoreboard players reset @s kbt.mine671
+scoreboard players reset @s kbt.mine672
+scoreboard players reset @s kbt.mine673
+scoreboard players reset @s kbt.mine674
+scoreboard players reset @s kbt.mine675
+scoreboard players reset @s kbt.mine676
+scoreboard players reset @s kbt.mine677
+scoreboard players reset @s kbt.mine678
+scoreboard players reset @s kbt.mine679
+scoreboard players reset @s kbt.mine680
+scoreboard players reset @s kbt.mine681
+scoreboard players reset @s kbt.mine682
+scoreboard players reset @s kbt.mine683
+scoreboard players reset @s kbt.mine684
+scoreboard players reset @s kbt.mine685
+scoreboard players reset @s kbt.mine686
+scoreboard players reset @s kbt.mine687
+scoreboard players reset @s kbt.mine688
+scoreboard players reset @s kbt.mine689
+scoreboard players reset @s kbt.mine690
+scoreboard players reset @s kbt.mine691
+scoreboard players reset @s kbt.mine692
+scoreboard players reset @s kbt.mine693
+scoreboard players reset @s kbt.mine694
+scoreboard players reset @s kbt.mine695
+scoreboard players reset @s kbt.mine696
+scoreboard players reset @s kbt.mine697
+scoreboard players reset @s kbt.mine698
+scoreboard players reset @s kbt.mine699
+scoreboard players reset @s kbt.mine700
+scoreboard players reset @s kbt.mine701
+scoreboard players reset @s kbt.mine702
+scoreboard players reset @s kbt.mine703
+scoreboard players reset @s kbt.mine704
+scoreboard players reset @s kbt.mine705
+scoreboard players reset @s kbt.mine706
+scoreboard players reset @s kbt.mine707
+scoreboard players reset @s kbt.mine708
+scoreboard players reset @s kbt.mine709
+scoreboard players reset @s kbt.mine710
+scoreboard players reset @s kbt.mine711
+scoreboard players reset @s kbt.mine712
+scoreboard players reset @s kbt.mine713
+scoreboard players reset @s kbt.mine714
+scoreboard players reset @s kbt.mine715
+scoreboard players reset @s kbt.mine716
+scoreboard players reset @s kbt.mine717
+scoreboard players reset @s kbt.mine718
+scoreboard players reset @s kbt.mine719
+scoreboard players reset @s kbt.mine720
+scoreboard players reset @s kbt.mine721
+scoreboard players reset @s kbt.mine722
+scoreboard players reset @s kbt.mine723
+scoreboard players reset @s kbt.mine724
+scoreboard players reset @s kbt.mine725
+scoreboard players reset @s kbt.mine726
+scoreboard players reset @s kbt.mine727
+scoreboard players reset @s kbt.mine728
+scoreboard players reset @s kbt.mine729
+scoreboard players reset @s kbt.mine730
+scoreboard players reset @s kbt.mine731
+scoreboard players reset @s kbt.mine732
+scoreboard players reset @s kbt.mine733
+scoreboard players reset @s kbt.mine734
+scoreboard players reset @s kbt.mine735
+scoreboard players reset @s kbt.mine736
+scoreboard players reset @s kbt.mine737
+scoreboard players reset @s kbt.mine738
+scoreboard players reset @s kbt.mine739
+scoreboard players reset @s kbt.mine740
+scoreboard players reset @s kbt.mine741
+scoreboard players reset @s kbt.mine742
+scoreboard players reset @s kbt.mine743
+scoreboard players reset @s kbt.mine744
+scoreboard players reset @s kbt.mine745
+scoreboard players reset @s kbt.mine746
+scoreboard players reset @s kbt.mine747
+scoreboard players reset @s kbt.mine748
+scoreboard players reset @s kbt.mine749
+scoreboard players reset @s kbt.mine750
+scoreboard players reset @s kbt.mine751
+scoreboard players reset @s kbt.mine752
+scoreboard players reset @s kbt.mine753
+scoreboard players reset @s kbt.mine754
+scoreboard players reset @s kbt.mine755
+scoreboard players reset @s kbt.mine756
+scoreboard players reset @s kbt.mine757
+scoreboard players reset @s kbt.mine758
+scoreboard players reset @s kbt.mine759
+scoreboard players reset @s kbt.mine760
+scoreboard players reset @s kbt.mine761
+scoreboard players reset @s kbt.mine762

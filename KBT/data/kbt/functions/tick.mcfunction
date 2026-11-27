@@ -1,3 +1,6 @@
+scoreboard players add #ui_clock kbt.settings 1
+execute if score #ui_clock kbt.settings matches 10.. run scoreboard players set #ui_clock kbt.settings 0
+function kbt:practice/respawn/tick
 execute if score #lava_wait kbt.settings matches 1.. run scoreboard players remove #lava_wait kbt.settings 1
 scoreboard players add #kbt_tick2 kbt.settings 1
 execute if score #kbt_tick2 kbt.settings matches 2.. run scoreboard players set #kbt_tick2 kbt.settings 0
@@ -19,7 +22,9 @@ function kbt:practice/tick
 execute if score #arena_drop_ticks kbt.settings matches 1.. run function kbt:arena/drop_cleanup/tick
 function kbt:lobby/tick
 execute in minecraft:the_nether run function kbt:tick_nether
-function kbt:settings/tick
-execute if score #kbt_tick20 kbt.settings matches 0 as @a[tag=kbt.menu_touched] run function kbt:settings/clear_tokens
+execute in minecraft:overworld run function kbt:settings/tick
+execute in minecraft:the_nether run function kbt:settings/tick
+execute in minecraft:the_end run function kbt:settings/tick
+clear @a #kbt:menu_tokens{kbt_menu:1b}
 function kbt:imports/progress/tick
 function kbt:share/tick

@@ -19,4 +19,5 @@ execute if data storage kbt:route_text pending.element.text{advanced:0} run exec
 execute if data storage kbt:route_text pending.element{type:12} run function kbt:routes/creator/message/menu
 execute unless data storage kbt:route_text pending.element{type:12} run tellraw @s [{"text":"[Save Text] ","color":"green","bold":true,"clickEvent":{"action":"run_command","value":"/trigger kbt.rc_menu set 58"}},{"text":"[Cancel Text]","color":"red","clickEvent":{"action":"run_command","value":"/trigger kbt.rc_menu set 59"}}]
 execute if data storage kbt:route_text pending.element{type:12} run tellraw @s [{"text":"[Save Message] ","color":"green","bold":true,"clickEvent":{"action":"run_command","value":"/trigger kbt.rc_menu set 58"}},{"text":"[Cancel Message]","color":"red","clickEvent":{"action":"run_command","value":"/trigger kbt.rc_menu set 59"}}]
-execute if data storage kbt:route_text pending.element.text{advanced:1} run tellraw @s {"text":"Advanced mode: color and styles come from your JSON. Write Message switches back to plain text.","color":"light_purple"}
+
+execute if data storage kbt:route_text pending.element.text{advanced:1} run tellraw @s {"text":"Advanced mode: color and styles come from your JSON Write Message switches back to plain text","color":"light_purple"}

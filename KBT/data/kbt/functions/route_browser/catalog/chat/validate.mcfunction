@@ -16,4 +16,4 @@ execute store result score #rb_chat_check kbt.settings run data get storage kbt:
 execute unless score #rb_chat_check kbt.settings = #rb_fav_filter kbt.settings run scoreboard players set #rb_chat_valid kbt.settings 0
 execute store result score #rb_chat_check kbt.settings run data get storage kbt:route_browser chat_snapshot.fav_revision
 execute unless score #rb_chat_check kbt.settings = #rb_fav_rev kbt.settings run scoreboard players set #rb_chat_valid kbt.settings 0
-execute if score #rb_chat_valid kbt.settings matches 0 run tellraw @s {"text":"Filters or saved routes changed. Click Built-in or Custom again to refresh the list.","color":"yellow"}
+execute if score #rb_chat_valid kbt.settings matches 0 run tellraw @s {"text":"Filters or saved routes changed Click Built-in or Custom again to refresh the list","color":"yellow"}

@@ -3,6 +3,7 @@ scoreboard objectives add kbt.menu dummy
 scoreboard objectives add kbt.gold dummy
 scoreboard objectives add kbt.floor dummy
 scoreboard objectives add kbt.hoglins dummy
+scoreboard objectives add kbt.piglins dummy
 scoreboard objectives add kbt.blaze dummy
 scoreboard objectives add kbt.spawn dummy
 scoreboard objectives add kbt.tspawn dummy
@@ -12,6 +13,7 @@ scoreboard objectives add kbt.debug dummy
 scoreboard objectives add kbt.natural dummy
 scoreboard objectives add kbt.origin dummy
 scoreboard objectives add kbt.page dummy
+scoreboard objectives add kbt.gp_layout dummy
 scoreboard objectives add kbt.left dummy
 scoreboard objectives add kbt.right dummy
 scoreboard objectives add kbt.specific dummy
@@ -44,6 +46,7 @@ scoreboard players set #mv_shown_type kbt.settings -1
 execute unless score #gold kbt.settings matches 0..2 run scoreboard players set #gold kbt.settings 0
 execute unless score #floor kbt.settings matches 0..3 run scoreboard players set #floor kbt.settings 0
 execute unless score #hoglins kbt.settings matches 0..1 run scoreboard players set #hoglins kbt.settings 0
+execute unless score #piglins kbt.settings matches 0..1 run scoreboard players set #piglins kbt.settings 0
 execute unless score #blaze kbt.settings matches 0..5 run scoreboard players set #blaze kbt.settings 0
 execute unless score #bridge_spawn kbt.settings matches 0..10 run scoreboard players set #bridge_spawn kbt.settings 0
 execute unless score #treasure_spawn kbt.settings matches 0..7 run scoreboard players set #treasure_spawn kbt.settings 0

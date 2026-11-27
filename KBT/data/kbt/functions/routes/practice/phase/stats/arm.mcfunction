@@ -1,3 +1,4 @@
+data remove storage kbt:phase_stats completed
 scoreboard players set #ph_ticks kbt.settings 0
 scoreboard players set #ph_recorded kbt.settings 0
 scoreboard players set #ph_valid kbt.settings 1

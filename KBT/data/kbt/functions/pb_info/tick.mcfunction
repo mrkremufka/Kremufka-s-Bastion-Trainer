@@ -1,0 +1,3 @@
+execute if score #kbt_tick20 kbt.settings matches 0 positioned -997.5 131.3 1004.5 if entity @a[distance=..16] if entity @e[type=minecraft:armor_stand,tag=kbt.rb_pb_text,distance=..2] unless entity @e[type=minecraft:pufferfish,tag=kbt.pb_route,distance=..2] run function kbt:pb_info/create_route
+execute if score #kbt_tick20 kbt.settings matches 0 positioned 1002.0 130.8 -997.0 if entity @a[distance=..16] if entity @e[type=minecraft:armor_stand,tag=kbt.mv_pb_text,distance=..2] unless entity @e[type=minecraft:pufferfish,tag=kbt.pb_movement,distance=..2] run function kbt:pb_info/create_movement
+execute if score #kbt_tick100 kbt.settings matches 0 as @e[type=minecraft:pufferfish,tag=kbt.pb_info_hitbox] run data merge entity @s {Air:300s,PuffState:0,Health:1024.0f}

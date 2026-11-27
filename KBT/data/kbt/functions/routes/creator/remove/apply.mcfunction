@@ -12,4 +12,4 @@ execute if score #rc_remove_type kbt.settings matches 7 run function kbt:routes/
 execute unless score #rc_remove_type kbt.settings matches 1 unless score #rc_remove_type kbt.settings matches 7 run function kbt:routes/creator/remove/stages
 execute if score #rc_remove_found kbt.settings matches 1 if score #rc_remove_merge kbt.settings matches 0 run function kbt:routes/creator/remove/commit
 execute if score #rc_remove_found kbt.settings matches 1 if score #rc_remove_merge kbt.settings matches 1 run function kbt:routes/creator/remove/merge
-execute unless score #rc_remove_found kbt.settings matches 1 run tellraw @s {"text":"That preview is outdated. Refresh Preview All or Current Stage and try again.","color":"yellow"}
+execute unless score #rc_remove_found kbt.settings matches 1 run tellraw @s {"text":"That preview is outdated Refresh Preview All or Current Stage and try again","color":"yellow"}

@@ -1,3 +1,5 @@
+data remove storage kbt:route_loot cache
+execute in minecraft:the_nether run kill @e[type=minecraft:armor_stand,tag=kbt.rp_compass]
 scoreboard objectives add kbt.rp_start trigger
 function kbt:routes/practice/phase/stats/init
 scoreboard players set #rp_navigation kbt.settings 0

@@ -1,5 +1,5 @@
 tag @s remove kbt.share_binder
-tellraw @s {"text":"Building the imported route's bastion...","color":"aqua"}
+tellraw @s {"text":"Building the imported route's bastion","color":"aqua"}
 execute unless data storage kbt:share blocks_loaded run function kbt:share/regenerate
 data modify storage kbt:share importing set value 1b
 data modify storage kbt:route_practice candidate set from storage kbt:share record

@@ -2,6 +2,8 @@ execute store result score #gp_bastion kbt.settings run data get storage kbt:pre
 execute store result score #gold kbt.settings run data get storage kbt:presets selected.settings.gold
 execute store result score #floor kbt.settings run data get storage kbt:presets selected.settings.floor
 execute store result score #hoglins kbt.settings run data get storage kbt:presets selected.settings.hoglins
+scoreboard players set #piglins kbt.settings 0
+execute if data storage kbt:presets selected.settings.piglins store result score #piglins kbt.settings run data get storage kbt:presets selected.settings.piglins
 execute store result score #blaze kbt.settings run data get storage kbt:presets selected.settings.blaze
 execute store result score #bridge_left kbt.settings run data get storage kbt:presets selected.settings.bridge_left
 execute store result score #bridge_right kbt.settings run data get storage kbt:presets selected.settings.bridge_right
